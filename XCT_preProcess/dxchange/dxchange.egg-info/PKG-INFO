@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dxchange
+Version: 0.1.8
+Summary: Data I/O for tomography.
+Author: Doga Gursoy, Francesco De Carlo
+License: BSD-3
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: BSD-3
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE.txt

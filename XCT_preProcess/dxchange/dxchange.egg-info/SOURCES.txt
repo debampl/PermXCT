@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+VERSION
+setup.py
+dxchange/__init__.py
+dxchange/dtype.py
+dxchange/exchange.py
+dxchange/reader.py
+dxchange/writer.py
+dxchange.egg-info/PKG-INFO
+dxchange.egg-info/SOURCES.txt
+dxchange.egg-info/dependency_links.txt
+dxchange.egg-info/top_level.txt

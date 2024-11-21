@@ -1,0 +1,12 @@
+numpy    
+scipy
+h5py>3.7
+six    
+netcdf4
+spefile    
+edffile    
+tifffile    
+dxfile
+fnmatch
+pandas
+opencv-python
