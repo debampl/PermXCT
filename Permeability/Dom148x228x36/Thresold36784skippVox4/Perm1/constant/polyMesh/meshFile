@@ -1,0 +1,12 @@
+This will contain the mesh file with the following.
+stes/
+boundary
+cellZones
+faces
+faceZones
+neighbour
+owner
+points
+pointZones
+
+These are not uplodaed here due to large volume.
