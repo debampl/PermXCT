@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd"[]>
+<Xdmf xmlns:xi="http://www.w3.org/2003/XInclude" Version="2.2">
+ <Domain>
+  <!-- *************** START OF DataContainer *************** -->
+  <Grid Name="DataContainer" GridType="Uniform">
+    <Topology TopologyType="3DCoRectMesh" Dimensions="38 58 10 "></Topology>
+    <Geometry Type="ORIGIN_DXDYDZ">
+      <!-- Origin  Z, Y, X -->
+      <DataItem Format="XML" Dimensions="3">0 228 108</DataItem>
+      <!-- DxDyDz (Spacing/Spacing) Z, Y, X -->
+      <DataItem Format="XML" Dimensions="3">4 4 4</DataItem>
+    </Geometry>
+    <Attribute Name="angle_class" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="37 57 9 1" NumberType="Float" Precision="8" >
+        slice_5Z4.dream3d:/DataContainers/DataContainer/CellData/angle_class
+      </DataItem>
+    </Attribute>
+    <Attribute Name="FeatureIds" AttributeType="Scalar" Center="Cell">
+      <DataItem Format="HDF" Dimensions="37 57 9 1" NumberType="Int" Precision="4" >
+        slice_5Z4.dream3d:/DataContainers/DataContainer/CellData/FeatureIds
+      </DataItem>
+    </Attribute>
+  </Grid>
+  <!-- *************** END OF DataContainer *************** -->
+ </Domain>
+</Xdmf>
