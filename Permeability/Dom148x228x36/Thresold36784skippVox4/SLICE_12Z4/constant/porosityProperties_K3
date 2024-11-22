@@ -1,0 +1,140 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      porosityProperties;
+}
+
+// *************************DEB POROSITY PROPERTIES***************************** //
+
+slice12Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice12Z4;
+
+    d (11.2454e12 11.2454e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 0 1);
+        e2        (0 1 0);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice12Z4;
+
+    d (11.2454e12 11.2454e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 0 1);
+        e2        (0 1 0);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice12Z4;
+
+    d (11.2454e12 11.2454e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 0 1);
+        e2        (0 1 0);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice12Z4;
+
+    d (11.2454e12 11.2454e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 0 1);
+        e2        (0 1 0);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice12Z4;
+
+    d (11.2454e12 11.2454e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 0 1);
+        e2        (0 1 0);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
