@@ -59,7 +59,7 @@ def main():
 		domainD = open(path + f"/Permeability_K33_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
 		domainD.write('Lx(mm) Ly(mm) Lz(mm)\n')
-		domainD.write(str(Lx*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lz*1e3) +'\n')
+		domainD.write(str(Lz*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lx*1e3) +'\n')
 		str1 = "Current Global VF\n"
 		str2 = str(Vf)+"\n"
 		domainD.write(str1)
@@ -73,7 +73,7 @@ def main():
 		domainD = open(path + f"/Permeability_K22_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
 		domainD.write('Lx(mm) Ly(mm) Lz(mm)\n')
-		domainD.write(str(Lx*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lz*1e3) +'\n')
+		domainD.write(str(Lz*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lx*1e3) +'\n')
 		str1 = "Current Global VF\n"
 		str2 = str(Vf)+"\n"
 		domainD.write(str1)
@@ -87,7 +87,7 @@ def main():
 		domainD = open(path + f"/Permeability_K11_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
 		domainD.write('Lx(mm) Ly(mm) Lz(mm)\n')
-		domainD.write(str(Lx*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lz*1e3) +'\n')
+		domainD.write(str(Lz*1e3) + ' ' + str(Ly*1e3) + ' ' + str(Lx*1e3) +'\n')
 		str1 = "Current Global VF\n"
 		str2 = str(Vf)+"\n"
 		domainD.write(str1)
