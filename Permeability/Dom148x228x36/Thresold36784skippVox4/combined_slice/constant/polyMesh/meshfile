@@ -1,1 +1,12 @@
+This folder will contain the following 
+sets/ -- This includes the sets of interfaces
+boundary
+cellZones
+faces
+faceZones
+neighbour
+owner
+points
+pointZones
 
+Due to the large size of these files, they are not uploaded here. However, while running the 'runstepx.sh' these will be created at some point.
