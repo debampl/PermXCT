@@ -1,0 +1,8633 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1912                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      porosityProperties;
+}
+
+// *************************DEB POROSITY PROPERTIES***************************** //
+
+slice1Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z1_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice1Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice2Z1_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice2Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z1_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice2Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice2Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice2Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z1_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice2Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice3Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice3Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice4Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice4Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice4Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice5Z1_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity22 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_22_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z1_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice5Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice6Z1_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice6Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z1_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice6Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice7Z1_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice7Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice7Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z1_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice7Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z1_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice7Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z1_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice7Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice8Z1_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z1_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice8Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice9Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice9Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice9Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice10Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice10Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice10Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice11Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice11Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice11Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z1_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice11Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice12Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice12Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice12Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z1_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice12Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice13Z1_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z1_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice13Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice14Z1_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z1_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice14Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice15Z1_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z1_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice15Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice16Z1_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice16Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z1_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice16Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z1_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice16Z1;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice1Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice1Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z2_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice1Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z2_porosity50 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_50_slice1Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice2Z2_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice2Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z2_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice2Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice3Z2_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z2_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z2_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z2_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z2_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice3Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice4Z2_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice4Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z2_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice4Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z2_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice4Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice5Z2_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity26 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_26_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z2_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice5Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice6Z2_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z2_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z2_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z2_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z2_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice6Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice7Z2_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity26 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_26_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity35 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_35_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity36 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_36_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity37 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_37_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity38 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_38_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity42 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_42_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z2_porosity43 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_43_slice7Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice8Z2_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice8Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice8Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z2_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice8Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice9Z2_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice9Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z2_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice9Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z2_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice9Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z2_porosity22 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_22_slice9Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice10Z2_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice10Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z2_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice10Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice11Z2_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice11Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z2_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice11Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z2_porosity43 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_43_slice11Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z2_porosity54 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_54_slice11Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice12Z2_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice12Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice13Z2_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice13Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z2_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice13Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z2_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice13Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice14Z2_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice14Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z2_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice14Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z2_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice14Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice15Z2_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice15Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z2_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice15Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z2_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice15Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z2_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice15Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z2_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice15Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice16Z2_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice16Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z2_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice16Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z2_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice16Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z2_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice16Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z2_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice16Z2;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice1Z3_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z3_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice1Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice2Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice2Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z3_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice2Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z3_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice2Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z3_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice2Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z3_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice2Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice3Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice3Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice3Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z3_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice3Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z3_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice3Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice4Z3_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice4Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z3_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice4Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice4Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice5Z3_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity22 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_22_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity23 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_23_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice5Z3_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice5Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice6Z3_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity22 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_22_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice6Z3_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice6Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice7Z3_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice7Z3_porosity31 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_31_slice7Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice8Z3_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice8Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z3_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice8Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice8Z3_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice8Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice9Z3_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice9Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z3_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice9Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z3_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice9Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice9Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice10Z3_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity23 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_23_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity31 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_31_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z3_porosity43 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_43_slice10Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice11Z3_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice11Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z3_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice11Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z3_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice11Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z3_porosity35 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_35_slice11Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z3_porosity37 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_37_slice11Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice12Z3_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice12Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z3_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice12Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z3_porosity22 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_22_slice12Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z3_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice12Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z3_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice12Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice13Z3_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z3_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z3_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z3_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z3_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z3_porosity30 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_30_slice13Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice14Z3_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice14Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z3_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice14Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z3_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice14Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z3_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice14Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z3_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice14Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice15Z3_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z3_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z3_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z3_porosity26 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_26_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z3_porosity30 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_30_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z3_porosity34 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_34_slice15Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice16Z3_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z3_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice16Z3;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice1Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice1Z4_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice1Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice2Z4_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z4_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z4_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z4_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z4_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice2Z4_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice2Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice3Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice3Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z4_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice3Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice3Z4_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice3Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice4Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice4Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z4_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice4Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z4_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice4Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice4Z4_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice4Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice5Z4_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice5Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice6Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice6Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice7Z4_porosity23 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_23_slice7Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice8Z4_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice8Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice9Z4_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity4 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_4_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity10 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_10_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity16 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_16_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity26 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_26_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice9Z4_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice9Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice10Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity18 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_18_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity21 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_21_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity28 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_28_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity29 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_29_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity30 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_30_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity31 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_31_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity34 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_34_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity35 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_35_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice10Z4_porosity36 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_36_slice10Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice11Z4_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice11Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z4_porosity5 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_5_slice11Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z4_porosity14 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_14_slice11Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z4_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice11Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice11Z4_porosity23 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_23_slice11Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice12Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice12Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice12Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity24 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_24_slice12Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice12Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice12Z4_porosity32 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_32_slice12Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice13Z4_porosity1 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_1_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity8 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_8_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity9 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_9_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity11 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_11_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity13 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_13_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity15 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_15_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity17 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_17_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity19 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_19_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity20 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_20_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice13Z4_porosity25 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_25_slice13Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice14Z4_porosity2 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_2_slice14Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice14Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice14Z4_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice14Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice15Z4_porosity7 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_7_slice15Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice15Z4_porosity27 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_27_slice15Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
+
+slice16Z4_porosity3 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_3_slice16Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z4_porosity6 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_6_slice16Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+slice16Z4_porosity12 
+{
+    type              DarcyForchheimer;
+
+    cellZone          Yarn0_12_slice16Z4;
+
+    d (11.2454e12 1.4671e12 11.2454e12); 
+    f (0.00 0.00 0.00); 
+
+    coordinateSystem
+    {
+      type         cartesian;
+      origin       (0 0 0);
+      rotation
+      {
+        type     axes;
+        e1        (0 1 0);
+        e2        (0 0 1);
+      }
+    }
+
+    porosity   2.600000e-01;
+}
+
+
+// ******************************************** //
