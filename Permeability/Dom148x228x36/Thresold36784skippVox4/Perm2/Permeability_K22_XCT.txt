@@ -1,6 +1,6 @@
 Domain dimensions
 Lx(mm) Ly(mm) Lz(mm)
-2.01111408 12.73705584 8.26791344
+8.26791344 12.73705584 2.01111408
 Current Global VF
 0.54242
 permeability K2    1.0760422106003886e-10
