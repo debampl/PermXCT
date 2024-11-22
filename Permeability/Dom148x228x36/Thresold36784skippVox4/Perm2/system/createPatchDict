@@ -1,0 +1,4060 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Website:  www.openfoam.com                      |
+|   \\  /    A nd           | Version:  7                                     |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      createPatchDict;
+}
+
+// *************************UPDATE CREATE PATCH DICT ***************************** //
+
+pointSync true;
+
+// Patches to create.
+
+patches
+(
+
+    {
+        name interface12Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface21Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z1_sideZ2_ami);
+    }
+
+    {
+        name interface21Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z1_sideZ1_ami);
+    }
+
+    {
+        name interface23Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface32Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z1_sideZ2_ami);
+    }
+
+    {
+        name interface32Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface23Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z1_sideZ1_ami);
+    }
+
+    {
+        name interface34Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface43Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z1_sideZ2_ami);
+    }
+
+    {
+        name interface43Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface34Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z1_sideZ1_ami);
+    }
+
+    {
+        name interface56Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface65Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z1_sideZ2_ami);
+    }
+
+    {
+        name interface65Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface56Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z1_sideZ1_ami);
+    }
+
+    {
+        name interface67Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface76Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z1_sideZ2_ami);
+    }
+
+    {
+        name interface76Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface67Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z1_sideZ1_ami);
+    }
+
+    {
+        name interface78Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface87Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z1_sideZ2_ami);
+    }
+
+    {
+        name interface87Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface78Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z1_sideZ1_ami);
+    }
+
+    {
+        name interface910Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface109Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z1_sideZ2_ami);
+    }
+
+    {
+        name interface109Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface910Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z1_sideZ1_ami);
+    }
+
+    {
+        name interface1011Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1110Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z1_sideZ2_ami);
+    }
+
+    {
+        name interface1110Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1011Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z1_sideZ1_ami);
+    }
+
+    {
+        name interface1112Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1211Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z1_sideZ2_ami);
+    }
+
+    {
+        name interface1211Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1112Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z1_sideZ1_ami);
+    }
+
+    {
+        name interface1314Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1413Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z1_sideZ2_ami);
+    }
+
+    {
+        name interface1413Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1314Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z1_sideZ1_ami);
+    }
+
+    {
+        name interface1415Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1514Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z1_sideZ2_ami);
+    }
+
+    {
+        name interface1514Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1415Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z1_sideZ1_ami);
+    }
+
+    {
+        name interface1516Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1615Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z1_sideZ2_ami);
+    }
+
+    {
+        name interface1615Z1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1516Z1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z1_sideZ1_ami);
+    }
+
+    {
+        name interface15Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface51Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z1_sideY2_ami);
+    }
+
+    {
+        name interface51Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z1_sideY1_ami);
+    }
+
+    {
+        name interface26Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface62Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z1_sideY2_ami);
+    }
+
+    {
+        name interface62Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface26Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z1_sideY1_ami);
+    }
+
+    {
+        name interface37Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface73Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z1_sideY2_ami);
+    }
+
+    {
+        name interface73Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface37Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z1_sideY1_ami);
+    }
+
+    {
+        name interface48Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface84Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z1_sideY2_ami);
+    }
+
+    {
+        name interface84Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface48Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z1_sideY1_ami);
+    }
+
+    {
+        name interface59Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface95Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z1_sideY2_ami);
+    }
+
+    {
+        name interface95Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface59Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z1_sideY1_ami);
+    }
+
+    {
+        name interface610Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface106Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z1_sideY2_ami);
+    }
+
+    {
+        name interface106Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface610Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z1_sideY1_ami);
+    }
+
+    {
+        name interface711Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface117Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z1_sideY2_ami);
+    }
+
+    {
+        name interface117Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface711Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z1_sideY1_ami);
+    }
+
+    {
+        name interface812Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface128Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z1_sideY2_ami);
+    }
+
+    {
+        name interface128Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface812Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z1_sideY1_ami);
+    }
+
+    {
+        name interface913Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface139Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z1_sideY2_ami);
+    }
+
+    {
+        name interface139Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface913Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z1_sideY1_ami);
+    }
+
+    {
+        name interface1014Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1410Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z1_sideY2_ami);
+    }
+
+    {
+        name interface1410Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1014Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z1_sideY1_ami);
+    }
+
+    {
+        name interface1115Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1511Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z1_sideY2_ami);
+    }
+
+    {
+        name interface1511Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1115Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z1_sideY1_ami);
+    }
+
+    {
+        name interface1216Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1612Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z1_sideY2_ami);
+    }
+
+    {
+        name interface1612Y1;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1216Y1;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z1_sideY1_ami);
+    }
+
+    {
+        name interface12Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface21Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z2_sideZ2_ami);
+    }
+
+    {
+        name interface21Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z2_sideZ1_ami);
+    }
+
+    {
+        name interface23Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface32Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z2_sideZ2_ami);
+    }
+
+    {
+        name interface32Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface23Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z2_sideZ1_ami);
+    }
+
+    {
+        name interface34Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface43Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z2_sideZ2_ami);
+    }
+
+    {
+        name interface43Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface34Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z2_sideZ1_ami);
+    }
+
+    {
+        name interface56Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface65Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z2_sideZ2_ami);
+    }
+
+    {
+        name interface65Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface56Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideZ1_ami);
+    }
+
+    {
+        name interface67Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface76Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideZ2_ami);
+    }
+
+    {
+        name interface76Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface67Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideZ1_ami);
+    }
+
+    {
+        name interface78Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface87Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideZ2_ami);
+    }
+
+    {
+        name interface87Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface78Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z2_sideZ1_ami);
+    }
+
+    {
+        name interface910Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface109Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z2_sideZ2_ami);
+    }
+
+    {
+        name interface109Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface910Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideZ1_ami);
+    }
+
+    {
+        name interface1011Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1110Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideZ2_ami);
+    }
+
+    {
+        name interface1110Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1011Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideZ1_ami);
+    }
+
+    {
+        name interface1112Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1211Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideZ2_ami);
+    }
+
+    {
+        name interface1211Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1112Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z2_sideZ1_ami);
+    }
+
+    {
+        name interface1314Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1413Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z2_sideZ2_ami);
+    }
+
+    {
+        name interface1413Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1314Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z2_sideZ1_ami);
+    }
+
+    {
+        name interface1415Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1514Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z2_sideZ2_ami);
+    }
+
+    {
+        name interface1514Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1415Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z2_sideZ1_ami);
+    }
+
+    {
+        name interface1516Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1615Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z2_sideZ2_ami);
+    }
+
+    {
+        name interface1615Z2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1516Z2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z2_sideZ1_ami);
+    }
+
+    {
+        name interface15Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface51Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z2_sideY2_ami);
+    }
+
+    {
+        name interface51Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z2_sideY1_ami);
+    }
+
+    {
+        name interface26Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface62Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z2_sideY2_ami);
+    }
+
+    {
+        name interface62Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface26Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideY1_ami);
+    }
+
+    {
+        name interface37Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface73Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z2_sideY2_ami);
+    }
+
+    {
+        name interface73Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface37Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideY1_ami);
+    }
+
+    {
+        name interface48Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface84Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z2_sideY2_ami);
+    }
+
+    {
+        name interface84Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface48Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z2_sideY1_ami);
+    }
+
+    {
+        name interface59Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface95Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z2_sideY2_ami);
+    }
+
+    {
+        name interface95Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface59Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z2_sideY1_ami);
+    }
+
+    {
+        name interface610Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface106Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideY2_ami);
+    }
+
+    {
+        name interface106Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface610Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideY1_ami);
+    }
+
+    {
+        name interface711Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface117Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideY2_ami);
+    }
+
+    {
+        name interface117Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface711Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideY1_ami);
+    }
+
+    {
+        name interface812Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface128Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z2_sideY2_ami);
+    }
+
+    {
+        name interface128Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface812Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z2_sideY1_ami);
+    }
+
+    {
+        name interface913Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface139Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z2_sideY2_ami);
+    }
+
+    {
+        name interface139Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface913Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z2_sideY1_ami);
+    }
+
+    {
+        name interface1014Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1410Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideY2_ami);
+    }
+
+    {
+        name interface1410Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1014Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z2_sideY1_ami);
+    }
+
+    {
+        name interface1115Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1511Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideY2_ami);
+    }
+
+    {
+        name interface1511Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1115Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z2_sideY1_ami);
+    }
+
+    {
+        name interface1216Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1612Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z2_sideY2_ami);
+    }
+
+    {
+        name interface1612Y2;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1216Y2;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z2_sideY1_ami);
+    }
+
+    {
+        name interface12Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface21Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z3_sideZ2_ami);
+    }
+
+    {
+        name interface21Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z3_sideZ1_ami);
+    }
+
+    {
+        name interface23Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface32Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z3_sideZ2_ami);
+    }
+
+    {
+        name interface32Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface23Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z3_sideZ1_ami);
+    }
+
+    {
+        name interface34Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface43Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z3_sideZ2_ami);
+    }
+
+    {
+        name interface43Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface34Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z3_sideZ1_ami);
+    }
+
+    {
+        name interface56Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface65Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z3_sideZ2_ami);
+    }
+
+    {
+        name interface65Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface56Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideZ1_ami);
+    }
+
+    {
+        name interface67Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface76Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideZ2_ami);
+    }
+
+    {
+        name interface76Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface67Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideZ1_ami);
+    }
+
+    {
+        name interface78Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface87Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideZ2_ami);
+    }
+
+    {
+        name interface87Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface78Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z3_sideZ1_ami);
+    }
+
+    {
+        name interface910Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface109Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z3_sideZ2_ami);
+    }
+
+    {
+        name interface109Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface910Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideZ1_ami);
+    }
+
+    {
+        name interface1011Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1110Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideZ2_ami);
+    }
+
+    {
+        name interface1110Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1011Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideZ1_ami);
+    }
+
+    {
+        name interface1112Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1211Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideZ2_ami);
+    }
+
+    {
+        name interface1211Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1112Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z3_sideZ1_ami);
+    }
+
+    {
+        name interface1314Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1413Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z3_sideZ2_ami);
+    }
+
+    {
+        name interface1413Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1314Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z3_sideZ1_ami);
+    }
+
+    {
+        name interface1415Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1514Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z3_sideZ2_ami);
+    }
+
+    {
+        name interface1514Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1415Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z3_sideZ1_ami);
+    }
+
+    {
+        name interface1516Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1615Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z3_sideZ2_ami);
+    }
+
+    {
+        name interface1615Z3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1516Z3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z3_sideZ1_ami);
+    }
+
+    {
+        name interface15Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface51Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z3_sideY2_ami);
+    }
+
+    {
+        name interface51Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z3_sideY1_ami);
+    }
+
+    {
+        name interface26Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface62Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z3_sideY2_ami);
+    }
+
+    {
+        name interface62Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface26Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideY1_ami);
+    }
+
+    {
+        name interface37Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface73Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z3_sideY2_ami);
+    }
+
+    {
+        name interface73Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface37Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideY1_ami);
+    }
+
+    {
+        name interface48Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface84Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z3_sideY2_ami);
+    }
+
+    {
+        name interface84Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface48Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z3_sideY1_ami);
+    }
+
+    {
+        name interface59Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface95Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z3_sideY2_ami);
+    }
+
+    {
+        name interface95Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface59Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z3_sideY1_ami);
+    }
+
+    {
+        name interface610Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface106Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideY2_ami);
+    }
+
+    {
+        name interface106Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface610Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideY1_ami);
+    }
+
+    {
+        name interface711Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface117Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideY2_ami);
+    }
+
+    {
+        name interface117Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface711Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideY1_ami);
+    }
+
+    {
+        name interface812Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface128Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z3_sideY2_ami);
+    }
+
+    {
+        name interface128Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface812Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z3_sideY1_ami);
+    }
+
+    {
+        name interface913Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface139Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z3_sideY2_ami);
+    }
+
+    {
+        name interface139Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface913Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z3_sideY1_ami);
+    }
+
+    {
+        name interface1014Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1410Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideY2_ami);
+    }
+
+    {
+        name interface1410Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1014Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z3_sideY1_ami);
+    }
+
+    {
+        name interface1115Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1511Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideY2_ami);
+    }
+
+    {
+        name interface1511Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1115Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z3_sideY1_ami);
+    }
+
+    {
+        name interface1216Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1612Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z3_sideY2_ami);
+    }
+
+    {
+        name interface1612Y3;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1216Y3;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z3_sideY1_ami);
+    }
+
+    {
+        name interface12Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface21Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z4_sideZ2_ami);
+    }
+
+    {
+        name interface21Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z4_sideZ1_ami);
+    }
+
+    {
+        name interface23Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface32Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z4_sideZ2_ami);
+    }
+
+    {
+        name interface32Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface23Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z4_sideZ1_ami);
+    }
+
+    {
+        name interface34Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface43Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z4_sideZ2_ami);
+    }
+
+    {
+        name interface43Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface34Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z4_sideZ1_ami);
+    }
+
+    {
+        name interface56Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface65Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z4_sideZ2_ami);
+    }
+
+    {
+        name interface65Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface56Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z4_sideZ1_ami);
+    }
+
+    {
+        name interface67Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface76Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z4_sideZ2_ami);
+    }
+
+    {
+        name interface76Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface67Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z4_sideZ1_ami);
+    }
+
+    {
+        name interface78Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface87Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z4_sideZ2_ami);
+    }
+
+    {
+        name interface87Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface78Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z4_sideZ1_ami);
+    }
+
+    {
+        name interface910Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface109Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z4_sideZ2_ami);
+    }
+
+    {
+        name interface109Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface910Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z4_sideZ1_ami);
+    }
+
+    {
+        name interface1011Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1110Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z4_sideZ2_ami);
+    }
+
+    {
+        name interface1110Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1011Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z4_sideZ1_ami);
+    }
+
+    {
+        name interface1112Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1211Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z4_sideZ2_ami);
+    }
+
+    {
+        name interface1211Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1112Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z4_sideZ1_ami);
+    }
+
+    {
+        name interface1314Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1413Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z4_sideZ2_ami);
+    }
+
+    {
+        name interface1413Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1314Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z4_sideZ1_ami);
+    }
+
+    {
+        name interface1415Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1514Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z4_sideZ2_ami);
+    }
+
+    {
+        name interface1514Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1415Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z4_sideZ1_ami);
+    }
+
+    {
+        name interface1516Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1615Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z4_sideZ2_ami);
+    }
+
+    {
+        name interface1615Z4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1516Z4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z4_sideZ1_ami);
+    }
+
+    {
+        name interface15Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface51Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z4_sideY2_ami);
+    }
+
+    {
+        name interface51Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z4_sideY1_ami);
+    }
+
+    {
+        name interface26Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface62Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z4_sideY2_ami);
+    }
+
+    {
+        name interface62Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface26Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z4_sideY1_ami);
+    }
+
+    {
+        name interface37Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface73Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z4_sideY2_ami);
+    }
+
+    {
+        name interface73Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface37Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z4_sideY1_ami);
+    }
+
+    {
+        name interface48Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface84Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z4_sideY2_ami);
+    }
+
+    {
+        name interface84Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface48Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z4_sideY1_ami);
+    }
+
+    {
+        name interface59Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface95Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z4_sideY2_ami);
+    }
+
+    {
+        name interface95Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface59Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z4_sideY1_ami);
+    }
+
+    {
+        name interface610Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface106Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z4_sideY2_ami);
+    }
+
+    {
+        name interface106Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface610Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z4_sideY1_ami);
+    }
+
+    {
+        name interface711Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface117Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z4_sideY2_ami);
+    }
+
+    {
+        name interface117Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface711Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z4_sideY1_ami);
+    }
+
+    {
+        name interface812Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface128Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z4_sideY2_ami);
+    }
+
+    {
+        name interface128Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface812Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z4_sideY1_ami);
+    }
+
+    {
+        name interface913Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface139Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z4_sideY2_ami);
+    }
+
+    {
+        name interface139Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface913Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z4_sideY1_ami);
+    }
+
+    {
+        name interface1014Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1410Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z4_sideY2_ami);
+    }
+
+    {
+        name interface1410Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1014Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z4_sideY1_ami);
+    }
+
+    {
+        name interface1115Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1511Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z4_sideY2_ami);
+    }
+
+    {
+        name interface1511Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1115Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z4_sideY1_ami);
+    }
+
+    {
+        name interface1216Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1612Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z4_sideY2_ami);
+    }
+
+    {
+        name interface1612Y4;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1216Y4;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z4_sideY1_ami);
+    }
+
+    {
+        name interface1X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z1_sideX2_ami);
+    }
+
+    {
+        name interface1X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z2_sideX1_ami);
+    }
+
+    {
+        name interface2X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z1_sideX2_ami);
+    }
+
+    {
+        name interface2X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z2_sideX1_ami);
+    }
+
+    {
+        name interface3X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z1_sideX2_ami);
+    }
+
+    {
+        name interface3X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z2_sideX1_ami);
+    }
+
+    {
+        name interface4X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z1_sideX2_ami);
+    }
+
+    {
+        name interface4X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z2_sideX1_ami);
+    }
+
+    {
+        name interface5X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z1_sideX2_ami);
+    }
+
+    {
+        name interface5X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z2_sideX1_ami);
+    }
+
+    {
+        name interface6X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z1_sideX2_ami);
+    }
+
+    {
+        name interface6X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideX1_ami);
+    }
+
+    {
+        name interface7X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z1_sideX2_ami);
+    }
+
+    {
+        name interface7X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideX1_ami);
+    }
+
+    {
+        name interface8X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z1_sideX2_ami);
+    }
+
+    {
+        name interface8X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z2_sideX1_ami);
+    }
+
+    {
+        name interface9X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z1_sideX2_ami);
+    }
+
+    {
+        name interface9X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z2_sideX1_ami);
+    }
+
+    {
+        name interface10X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z1_sideX2_ami);
+    }
+
+    {
+        name interface10X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideX1_ami);
+    }
+
+    {
+        name interface11X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z1_sideX2_ami);
+    }
+
+    {
+        name interface11X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideX1_ami);
+    }
+
+    {
+        name interface12X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z1_sideX2_ami);
+    }
+
+    {
+        name interface12X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z2_sideX1_ami);
+    }
+
+    {
+        name interface13X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z1_sideX2_ami);
+    }
+
+    {
+        name interface13X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z2_sideX1_ami);
+    }
+
+    {
+        name interface14X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z1_sideX2_ami);
+    }
+
+    {
+        name interface14X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z2_sideX1_ami);
+    }
+
+    {
+        name interface15X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z1_sideX2_ami);
+    }
+
+    {
+        name interface15X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z2_sideX1_ami);
+    }
+
+    {
+        name interface16X12;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X21;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z1_sideX2_ami);
+    }
+
+    {
+        name interface16X21;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X12;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z2_sideX1_ami);
+    }
+
+    {
+        name interface1X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z2_sideX2_ami);
+    }
+
+    {
+        name interface1X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z3_sideX1_ami);
+    }
+
+    {
+        name interface2X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z2_sideX2_ami);
+    }
+
+    {
+        name interface2X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z3_sideX1_ami);
+    }
+
+    {
+        name interface3X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z2_sideX2_ami);
+    }
+
+    {
+        name interface3X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z3_sideX1_ami);
+    }
+
+    {
+        name interface4X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z2_sideX2_ami);
+    }
+
+    {
+        name interface4X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z3_sideX1_ami);
+    }
+
+    {
+        name interface5X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z2_sideX2_ami);
+    }
+
+    {
+        name interface5X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z3_sideX1_ami);
+    }
+
+    {
+        name interface6X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z2_sideX2_ami);
+    }
+
+    {
+        name interface6X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideX1_ami);
+    }
+
+    {
+        name interface7X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z2_sideX2_ami);
+    }
+
+    {
+        name interface7X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideX1_ami);
+    }
+
+    {
+        name interface8X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z2_sideX2_ami);
+    }
+
+    {
+        name interface8X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z3_sideX1_ami);
+    }
+
+    {
+        name interface9X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z2_sideX2_ami);
+    }
+
+    {
+        name interface9X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z3_sideX1_ami);
+    }
+
+    {
+        name interface10X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z2_sideX2_ami);
+    }
+
+    {
+        name interface10X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideX1_ami);
+    }
+
+    {
+        name interface11X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z2_sideX2_ami);
+    }
+
+    {
+        name interface11X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideX1_ami);
+    }
+
+    {
+        name interface12X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z2_sideX2_ami);
+    }
+
+    {
+        name interface12X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z3_sideX1_ami);
+    }
+
+    {
+        name interface13X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z2_sideX2_ami);
+    }
+
+    {
+        name interface13X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z3_sideX1_ami);
+    }
+
+    {
+        name interface14X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z2_sideX2_ami);
+    }
+
+    {
+        name interface14X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z3_sideX1_ami);
+    }
+
+    {
+        name interface15X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z2_sideX2_ami);
+    }
+
+    {
+        name interface15X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z3_sideX1_ami);
+    }
+
+    {
+        name interface16X23;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X32;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z2_sideX2_ami);
+    }
+
+    {
+        name interface16X32;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X23;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z3_sideX1_ami);
+    }
+
+    {
+        name interface1X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z3_sideX2_ami);
+    }
+
+    {
+        name interface1X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface1X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice1Z4_sideX1_ami);
+    }
+
+    {
+        name interface2X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z3_sideX2_ami);
+    }
+
+    {
+        name interface2X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface2X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice2Z4_sideX1_ami);
+    }
+
+    {
+        name interface3X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z3_sideX2_ami);
+    }
+
+    {
+        name interface3X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface3X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice3Z4_sideX1_ami);
+    }
+
+    {
+        name interface4X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z3_sideX2_ami);
+    }
+
+    {
+        name interface4X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface4X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice4Z4_sideX1_ami);
+    }
+
+    {
+        name interface5X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z3_sideX2_ami);
+    }
+
+    {
+        name interface5X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface5X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice5Z4_sideX1_ami);
+    }
+
+    {
+        name interface6X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z3_sideX2_ami);
+    }
+
+    {
+        name interface6X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface6X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice6Z4_sideX1_ami);
+    }
+
+    {
+        name interface7X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z3_sideX2_ami);
+    }
+
+    {
+        name interface7X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface7X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice7Z4_sideX1_ami);
+    }
+
+    {
+        name interface8X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z3_sideX2_ami);
+    }
+
+    {
+        name interface8X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface8X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice8Z4_sideX1_ami);
+    }
+
+    {
+        name interface9X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z3_sideX2_ami);
+    }
+
+    {
+        name interface9X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface9X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice9Z4_sideX1_ami);
+    }
+
+    {
+        name interface10X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z3_sideX2_ami);
+    }
+
+    {
+        name interface10X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface10X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice10Z4_sideX1_ami);
+    }
+
+    {
+        name interface11X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z3_sideX2_ami);
+    }
+
+    {
+        name interface11X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface11X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice11Z4_sideX1_ami);
+    }
+
+    {
+        name interface12X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z3_sideX2_ami);
+    }
+
+    {
+        name interface12X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface12X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice12Z4_sideX1_ami);
+    }
+
+    {
+        name interface13X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z3_sideX2_ami);
+    }
+
+    {
+        name interface13X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface13X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice13Z4_sideX1_ami);
+    }
+
+    {
+        name interface14X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z3_sideX2_ami);
+    }
+
+    {
+        name interface14X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface14X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice14Z4_sideX1_ami);
+    }
+
+    {
+        name interface15X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z3_sideX2_ami);
+    }
+
+    {
+        name interface15X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface15X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice15Z4_sideX1_ami);
+    }
+
+    {
+        name interface16X34;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X43;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z3_sideX2_ami);
+    }
+
+    {
+        name interface16X43;
+
+        patchInfo
+        {
+            type cyclicAMI;
+            inGroups 1(cyclicAMI);
+            neighbourPatch  interface16X34;
+            matchTolerance  0.0001;
+        }
+        constructFrom patches;
+        patches (slice16Z4_sideX1_ami);
+    }
+
+);
+
+// ******************************************** //
