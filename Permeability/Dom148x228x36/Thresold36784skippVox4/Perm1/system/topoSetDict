@@ -1,0 +1,3194 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Website:  www.openfoam.com                      |
+|   \\  /    A nd           | Version:  7                                     |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      topoSetDict;
+}
+
+//*************************UPDATE TOPO STE DICT *****************************//
+//*** Create faceSet for AMI patches to avoid having processor boundaries cross them ***//
+
+
+actions
+(
+
+    {
+        name f1Z1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12Z1";
+        }
+    }
+
+    {
+        name f1Z1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface21Z1";
+        }
+    }
+
+    {
+        name f1Z2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface23Z1";
+        }
+    }
+
+    {
+        name f1Z2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface32Z1";
+        }
+    }
+
+    {
+        name f1Z3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface34Z1";
+        }
+    }
+
+    {
+        name f1Z3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface43Z1";
+        }
+    }
+
+    {
+        name f1Z5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface56Z1";
+        }
+    }
+
+    {
+        name f1Z5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface65Z1";
+        }
+    }
+
+    {
+        name f1Z6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface67Z1";
+        }
+    }
+
+    {
+        name f1Z6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface76Z1";
+        }
+    }
+
+    {
+        name f1Z7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface78Z1";
+        }
+    }
+
+    {
+        name f1Z7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface87Z1";
+        }
+    }
+
+    {
+        name f1Z9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface910Z1";
+        }
+    }
+
+    {
+        name f1Z9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface109Z1";
+        }
+    }
+
+    {
+        name f1Z10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1011Z1";
+        }
+    }
+
+    {
+        name f1Z10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1110Z1";
+        }
+    }
+
+    {
+        name f1Z11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1112Z1";
+        }
+    }
+
+    {
+        name f1Z11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1211Z1";
+        }
+    }
+
+    {
+        name f1Z13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1314Z1";
+        }
+    }
+
+    {
+        name f1Z13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1413Z1";
+        }
+    }
+
+    {
+        name f1Z14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1415Z1";
+        }
+    }
+
+    {
+        name f1Z14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1514Z1";
+        }
+    }
+
+    {
+        name f1Z15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1516Z1";
+        }
+    }
+
+    {
+        name f1Z15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1615Z1";
+        }
+    }
+
+    {
+        name f2Z1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12Z2";
+        }
+    }
+
+    {
+        name f2Z1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface21Z2";
+        }
+    }
+
+    {
+        name f2Z2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface23Z2";
+        }
+    }
+
+    {
+        name f2Z2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface32Z2";
+        }
+    }
+
+    {
+        name f2Z3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface34Z2";
+        }
+    }
+
+    {
+        name f2Z3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface43Z2";
+        }
+    }
+
+    {
+        name f2Z5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface56Z2";
+        }
+    }
+
+    {
+        name f2Z5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface65Z2";
+        }
+    }
+
+    {
+        name f2Z6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface67Z2";
+        }
+    }
+
+    {
+        name f2Z6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface76Z2";
+        }
+    }
+
+    {
+        name f2Z7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface78Z2";
+        }
+    }
+
+    {
+        name f2Z7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface87Z2";
+        }
+    }
+
+    {
+        name f2Z9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface910Z2";
+        }
+    }
+
+    {
+        name f2Z9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface109Z2";
+        }
+    }
+
+    {
+        name f2Z10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1011Z2";
+        }
+    }
+
+    {
+        name f2Z10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1110Z2";
+        }
+    }
+
+    {
+        name f2Z11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1112Z2";
+        }
+    }
+
+    {
+        name f2Z11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1211Z2";
+        }
+    }
+
+    {
+        name f2Z13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1314Z2";
+        }
+    }
+
+    {
+        name f2Z13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1413Z2";
+        }
+    }
+
+    {
+        name f2Z14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1415Z2";
+        }
+    }
+
+    {
+        name f2Z14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1514Z2";
+        }
+    }
+
+    {
+        name f2Z15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1516Z2";
+        }
+    }
+
+    {
+        name f2Z15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1615Z2";
+        }
+    }
+
+    {
+        name f3Z1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12Z3";
+        }
+    }
+
+    {
+        name f3Z1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface21Z3";
+        }
+    }
+
+    {
+        name f3Z2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface23Z3";
+        }
+    }
+
+    {
+        name f3Z2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface32Z3";
+        }
+    }
+
+    {
+        name f3Z3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface34Z3";
+        }
+    }
+
+    {
+        name f3Z3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface43Z3";
+        }
+    }
+
+    {
+        name f3Z5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface56Z3";
+        }
+    }
+
+    {
+        name f3Z5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface65Z3";
+        }
+    }
+
+    {
+        name f3Z6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface67Z3";
+        }
+    }
+
+    {
+        name f3Z6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface76Z3";
+        }
+    }
+
+    {
+        name f3Z7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface78Z3";
+        }
+    }
+
+    {
+        name f3Z7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface87Z3";
+        }
+    }
+
+    {
+        name f3Z9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface910Z3";
+        }
+    }
+
+    {
+        name f3Z9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface109Z3";
+        }
+    }
+
+    {
+        name f3Z10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1011Z3";
+        }
+    }
+
+    {
+        name f3Z10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1110Z3";
+        }
+    }
+
+    {
+        name f3Z11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1112Z3";
+        }
+    }
+
+    {
+        name f3Z11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1211Z3";
+        }
+    }
+
+    {
+        name f3Z13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1314Z3";
+        }
+    }
+
+    {
+        name f3Z13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1413Z3";
+        }
+    }
+
+    {
+        name f3Z14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1415Z3";
+        }
+    }
+
+    {
+        name f3Z14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1514Z3";
+        }
+    }
+
+    {
+        name f3Z15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1516Z3";
+        }
+    }
+
+    {
+        name f3Z15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1615Z3";
+        }
+    }
+
+    {
+        name f4Z1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12Z4";
+        }
+    }
+
+    {
+        name f4Z1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface21Z4";
+        }
+    }
+
+    {
+        name f4Z2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface23Z4";
+        }
+    }
+
+    {
+        name f4Z2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface32Z4";
+        }
+    }
+
+    {
+        name f4Z3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface34Z4";
+        }
+    }
+
+    {
+        name f4Z3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface43Z4";
+        }
+    }
+
+    {
+        name f4Z5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface56Z4";
+        }
+    }
+
+    {
+        name f4Z5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface65Z4";
+        }
+    }
+
+    {
+        name f4Z6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface67Z4";
+        }
+    }
+
+    {
+        name f4Z6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface76Z4";
+        }
+    }
+
+    {
+        name f4Z7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface78Z4";
+        }
+    }
+
+    {
+        name f4Z7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface87Z4";
+        }
+    }
+
+    {
+        name f4Z9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface910Z4";
+        }
+    }
+
+    {
+        name f4Z9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface109Z4";
+        }
+    }
+
+    {
+        name f4Z10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1011Z4";
+        }
+    }
+
+    {
+        name f4Z10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1110Z4";
+        }
+    }
+
+    {
+        name f4Z11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1112Z4";
+        }
+    }
+
+    {
+        name f4Z11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1211Z4";
+        }
+    }
+
+    {
+        name f4Z13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1314Z4";
+        }
+    }
+
+    {
+        name f4Z13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1413Z4";
+        }
+    }
+
+    {
+        name f4Z14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1415Z4";
+        }
+    }
+
+    {
+        name f4Z14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1514Z4";
+        }
+    }
+
+    {
+        name f4Z15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1516Z4";
+        }
+    }
+
+    {
+        name f4Z15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1615Z4";
+        }
+    }
+
+    {
+        name f1Y1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15Y1";
+        }
+    }
+
+    {
+        name f1Y1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface51Y1";
+        }
+    }
+
+    {
+        name f1Y2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface26Y1";
+        }
+    }
+
+    {
+        name f1Y2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface62Y1";
+        }
+    }
+
+    {
+        name f1Y3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface37Y1";
+        }
+    }
+
+    {
+        name f1Y3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface73Y1";
+        }
+    }
+
+    {
+        name f1Y4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface48Y1";
+        }
+    }
+
+    {
+        name f1Y4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface84Y1";
+        }
+    }
+
+    {
+        name f1Y5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface59Y1";
+        }
+    }
+
+    {
+        name f1Y5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface95Y1";
+        }
+    }
+
+    {
+        name f1Y6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface610Y1";
+        }
+    }
+
+    {
+        name f1Y6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface106Y1";
+        }
+    }
+
+    {
+        name f1Y7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface711Y1";
+        }
+    }
+
+    {
+        name f1Y7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface117Y1";
+        }
+    }
+
+    {
+        name f1Y8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface812Y1";
+        }
+    }
+
+    {
+        name f1Y8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface128Y1";
+        }
+    }
+
+    {
+        name f1Y9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface913Y1";
+        }
+    }
+
+    {
+        name f1Y9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface139Y1";
+        }
+    }
+
+    {
+        name f1Y10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1014Y1";
+        }
+    }
+
+    {
+        name f1Y10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1410Y1";
+        }
+    }
+
+    {
+        name f1Y11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1115Y1";
+        }
+    }
+
+    {
+        name f1Y11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1511Y1";
+        }
+    }
+
+    {
+        name f1Y12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1216Y1";
+        }
+    }
+
+    {
+        name f1Y12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1612Y1";
+        }
+    }
+
+    {
+        name f2Y1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15Y2";
+        }
+    }
+
+    {
+        name f2Y1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface51Y2";
+        }
+    }
+
+    {
+        name f2Y2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface26Y2";
+        }
+    }
+
+    {
+        name f2Y2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface62Y2";
+        }
+    }
+
+    {
+        name f2Y3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface37Y2";
+        }
+    }
+
+    {
+        name f2Y3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface73Y2";
+        }
+    }
+
+    {
+        name f2Y4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface48Y2";
+        }
+    }
+
+    {
+        name f2Y4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface84Y2";
+        }
+    }
+
+    {
+        name f2Y5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface59Y2";
+        }
+    }
+
+    {
+        name f2Y5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface95Y2";
+        }
+    }
+
+    {
+        name f2Y6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface610Y2";
+        }
+    }
+
+    {
+        name f2Y6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface106Y2";
+        }
+    }
+
+    {
+        name f2Y7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface711Y2";
+        }
+    }
+
+    {
+        name f2Y7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface117Y2";
+        }
+    }
+
+    {
+        name f2Y8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface812Y2";
+        }
+    }
+
+    {
+        name f2Y8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface128Y2";
+        }
+    }
+
+    {
+        name f2Y9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface913Y2";
+        }
+    }
+
+    {
+        name f2Y9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface139Y2";
+        }
+    }
+
+    {
+        name f2Y10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1014Y2";
+        }
+    }
+
+    {
+        name f2Y10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1410Y2";
+        }
+    }
+
+    {
+        name f2Y11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1115Y2";
+        }
+    }
+
+    {
+        name f2Y11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1511Y2";
+        }
+    }
+
+    {
+        name f2Y12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1216Y2";
+        }
+    }
+
+    {
+        name f2Y12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1612Y2";
+        }
+    }
+
+    {
+        name f3Y1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15Y3";
+        }
+    }
+
+    {
+        name f3Y1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface51Y3";
+        }
+    }
+
+    {
+        name f3Y2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface26Y3";
+        }
+    }
+
+    {
+        name f3Y2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface62Y3";
+        }
+    }
+
+    {
+        name f3Y3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface37Y3";
+        }
+    }
+
+    {
+        name f3Y3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface73Y3";
+        }
+    }
+
+    {
+        name f3Y4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface48Y3";
+        }
+    }
+
+    {
+        name f3Y4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface84Y3";
+        }
+    }
+
+    {
+        name f3Y5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface59Y3";
+        }
+    }
+
+    {
+        name f3Y5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface95Y3";
+        }
+    }
+
+    {
+        name f3Y6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface610Y3";
+        }
+    }
+
+    {
+        name f3Y6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface106Y3";
+        }
+    }
+
+    {
+        name f3Y7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface711Y3";
+        }
+    }
+
+    {
+        name f3Y7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface117Y3";
+        }
+    }
+
+    {
+        name f3Y8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface812Y3";
+        }
+    }
+
+    {
+        name f3Y8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface128Y3";
+        }
+    }
+
+    {
+        name f3Y9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface913Y3";
+        }
+    }
+
+    {
+        name f3Y9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface139Y3";
+        }
+    }
+
+    {
+        name f3Y10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1014Y3";
+        }
+    }
+
+    {
+        name f3Y10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1410Y3";
+        }
+    }
+
+    {
+        name f3Y11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1115Y3";
+        }
+    }
+
+    {
+        name f3Y11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1511Y3";
+        }
+    }
+
+    {
+        name f3Y12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1216Y3";
+        }
+    }
+
+    {
+        name f3Y12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1612Y3";
+        }
+    }
+
+    {
+        name f4Y1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15Y4";
+        }
+    }
+
+    {
+        name f4Y1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface51Y4";
+        }
+    }
+
+    {
+        name f4Y2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface26Y4";
+        }
+    }
+
+    {
+        name f4Y2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface62Y4";
+        }
+    }
+
+    {
+        name f4Y3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface37Y4";
+        }
+    }
+
+    {
+        name f4Y3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface73Y4";
+        }
+    }
+
+    {
+        name f4Y4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface48Y4";
+        }
+    }
+
+    {
+        name f4Y4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface84Y4";
+        }
+    }
+
+    {
+        name f4Y5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface59Y4";
+        }
+    }
+
+    {
+        name f4Y5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface95Y4";
+        }
+    }
+
+    {
+        name f4Y6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface610Y4";
+        }
+    }
+
+    {
+        name f4Y6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface106Y4";
+        }
+    }
+
+    {
+        name f4Y7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface711Y4";
+        }
+    }
+
+    {
+        name f4Y7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface117Y4";
+        }
+    }
+
+    {
+        name f4Y8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface812Y4";
+        }
+    }
+
+    {
+        name f4Y8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface128Y4";
+        }
+    }
+
+    {
+        name f4Y9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface913Y4";
+        }
+    }
+
+    {
+        name f4Y9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface139Y4";
+        }
+    }
+
+    {
+        name f4Y10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1014Y4";
+        }
+    }
+
+    {
+        name f4Y10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1410Y4";
+        }
+    }
+
+    {
+        name f4Y11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1115Y4";
+        }
+    }
+
+    {
+        name f4Y11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1511Y4";
+        }
+    }
+
+    {
+        name f4Y12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1216Y4";
+        }
+    }
+
+    {
+        name f4Y12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1612Y4";
+        }
+    }
+
+    {
+        name f1X1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X12";
+        }
+    }
+
+    {
+        name f1X1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X21";
+        }
+    }
+
+    {
+        name f1X2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X12";
+        }
+    }
+
+    {
+        name f1X2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X21";
+        }
+    }
+
+    {
+        name f1X3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X12";
+        }
+    }
+
+    {
+        name f1X3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X21";
+        }
+    }
+
+    {
+        name f1X4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X12";
+        }
+    }
+
+    {
+        name f1X4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X21";
+        }
+    }
+
+    {
+        name f1X5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X12";
+        }
+    }
+
+    {
+        name f1X5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X21";
+        }
+    }
+
+    {
+        name f1X6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X12";
+        }
+    }
+
+    {
+        name f1X6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X21";
+        }
+    }
+
+    {
+        name f1X7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X12";
+        }
+    }
+
+    {
+        name f1X7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X21";
+        }
+    }
+
+    {
+        name f1X8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X12";
+        }
+    }
+
+    {
+        name f1X8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X21";
+        }
+    }
+
+    {
+        name f1X9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X12";
+        }
+    }
+
+    {
+        name f1X9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X21";
+        }
+    }
+
+    {
+        name f1X10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X12";
+        }
+    }
+
+    {
+        name f1X10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X21";
+        }
+    }
+
+    {
+        name f1X11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X12";
+        }
+    }
+
+    {
+        name f1X11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X21";
+        }
+    }
+
+    {
+        name f1X12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X12";
+        }
+    }
+
+    {
+        name f1X12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X21";
+        }
+    }
+
+    {
+        name f1X13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X12";
+        }
+    }
+
+    {
+        name f1X13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X21";
+        }
+    }
+
+    {
+        name f1X14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X12";
+        }
+    }
+
+    {
+        name f1X14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X21";
+        }
+    }
+
+    {
+        name f1X15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X12";
+        }
+    }
+
+    {
+        name f1X15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X21";
+        }
+    }
+
+    {
+        name f1X16;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X12";
+        }
+    }
+
+    {
+        name f1X16;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X21";
+        }
+    }
+
+    {
+        name f2X1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X23";
+        }
+    }
+
+    {
+        name f2X1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X32";
+        }
+    }
+
+    {
+        name f2X2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X23";
+        }
+    }
+
+    {
+        name f2X2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X32";
+        }
+    }
+
+    {
+        name f2X3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X23";
+        }
+    }
+
+    {
+        name f2X3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X32";
+        }
+    }
+
+    {
+        name f2X4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X23";
+        }
+    }
+
+    {
+        name f2X4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X32";
+        }
+    }
+
+    {
+        name f2X5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X23";
+        }
+    }
+
+    {
+        name f2X5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X32";
+        }
+    }
+
+    {
+        name f2X6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X23";
+        }
+    }
+
+    {
+        name f2X6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X32";
+        }
+    }
+
+    {
+        name f2X7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X23";
+        }
+    }
+
+    {
+        name f2X7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X32";
+        }
+    }
+
+    {
+        name f2X8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X23";
+        }
+    }
+
+    {
+        name f2X8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X32";
+        }
+    }
+
+    {
+        name f2X9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X23";
+        }
+    }
+
+    {
+        name f2X9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X32";
+        }
+    }
+
+    {
+        name f2X10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X23";
+        }
+    }
+
+    {
+        name f2X10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X32";
+        }
+    }
+
+    {
+        name f2X11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X23";
+        }
+    }
+
+    {
+        name f2X11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X32";
+        }
+    }
+
+    {
+        name f2X12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X23";
+        }
+    }
+
+    {
+        name f2X12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X32";
+        }
+    }
+
+    {
+        name f2X13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X23";
+        }
+    }
+
+    {
+        name f2X13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X32";
+        }
+    }
+
+    {
+        name f2X14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X23";
+        }
+    }
+
+    {
+        name f2X14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X32";
+        }
+    }
+
+    {
+        name f2X15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X23";
+        }
+    }
+
+    {
+        name f2X15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X32";
+        }
+    }
+
+    {
+        name f2X16;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X23";
+        }
+    }
+
+    {
+        name f2X16;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X32";
+        }
+    }
+
+    {
+        name f3X1;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X34";
+        }
+    }
+
+    {
+        name f3X1;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface1X43";
+        }
+    }
+
+    {
+        name f3X2;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X34";
+        }
+    }
+
+    {
+        name f3X2;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface2X43";
+        }
+    }
+
+    {
+        name f3X3;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X34";
+        }
+    }
+
+    {
+        name f3X3;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface3X43";
+        }
+    }
+
+    {
+        name f3X4;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X34";
+        }
+    }
+
+    {
+        name f3X4;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface4X43";
+        }
+    }
+
+    {
+        name f3X5;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X34";
+        }
+    }
+
+    {
+        name f3X5;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface5X43";
+        }
+    }
+
+    {
+        name f3X6;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X34";
+        }
+    }
+
+    {
+        name f3X6;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface6X43";
+        }
+    }
+
+    {
+        name f3X7;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X34";
+        }
+    }
+
+    {
+        name f3X7;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface7X43";
+        }
+    }
+
+    {
+        name f3X8;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X34";
+        }
+    }
+
+    {
+        name f3X8;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface8X43";
+        }
+    }
+
+    {
+        name f3X9;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X34";
+        }
+    }
+
+    {
+        name f3X9;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface9X43";
+        }
+    }
+
+    {
+        name f3X10;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X34";
+        }
+    }
+
+    {
+        name f3X10;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface10X43";
+        }
+    }
+
+    {
+        name f3X11;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X34";
+        }
+    }
+
+    {
+        name f3X11;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface11X43";
+        }
+    }
+
+    {
+        name f3X12;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X34";
+        }
+    }
+
+    {
+        name f3X12;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface12X43";
+        }
+    }
+
+    {
+        name f3X13;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X34";
+        }
+    }
+
+    {
+        name f3X13;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface13X43";
+        }
+    }
+
+    {
+        name f3X14;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X34";
+        }
+    }
+
+    {
+        name f3X14;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface14X43";
+        }
+    }
+
+    {
+        name f3X15;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X34";
+        }
+    }
+
+    {
+        name f3X15;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface15X43";
+        }
+    }
+
+    {
+        name f3X16;
+        type faceSet;
+        action new;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X34";
+        }
+    }
+
+    {
+        name f3X16;
+        type faceSet;
+        action add;
+        source patchToFace;
+        sourceInfo
+        {
+        patch "interface16X43";
+        }
+    }
+
+);
+
+// ******************************************** //

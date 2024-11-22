@@ -1,0 +1,372 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Website:  www.openfoam.com                      |
+|   \\  /    A nd           | Version:  7                                     |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      decomposeParDict;
+}
+
+//*************************UPDATE TOPO STE DICT *****************************//
+//*** Assign the processor division and restrict the all the interface simulation to perform in a single patch ***//\n
+
+
+numberOfSubdomains      16;     // # of CPU cores
+
+method          simple;
+
+coeffs
+{
+    n          ( 2 2 4 );    // simple division in XYZ ...drirection must be equals to the number of total core
+    delta          0.001;
+}
+
+constraints
+{
+
+    // Keep owner and neighbour of baffles on the same processor
+    // (ie, keep it detectable as a baffles).
+    // Baffles are two boundary face sharing the same points
+    baffles
+    {
+        type        preserveBaffles;
+        enabled     false;
+    }
+
+    // Keep owned and neighbour on same processor for faces in zones
+    faces
+    {
+        type        preserveFaceZones;
+        zones       (".*");
+        enables     false;
+    }
+
+    // Keep owner and neighbour on same processor for faces in patches
+    // (only makes sense for cyclic patches. Not subtbale for e.g.
+    // cyclicAMI since these are not coupled on the patch level.
+    // Use singleProcessorFaceSets for those.
+    patches
+    {
+        type        preservePatches;
+        patches     (interface12Z1 interface21Z1
+                   interface23Z1 interface32Z1
+                   interface34Z1 interface43Z1
+                   interface56Z1 interface65Z1
+                   interface67Z1 interface76Z1
+                   interface78Z1 interface87Z1
+                   interface910Z1 interface109Z1
+                   interface1011Z1 interface1110Z1
+                   interface1112Z1 interface1211Z1
+                   interface1314Z1 interface1413Z1
+                   interface1415Z1 interface1514Z1
+                   interface1516Z1 interface1615Z1
+                   interface12Z2 interface21Z2
+                   interface23Z2 interface32Z2
+                   interface34Z2 interface43Z2
+                   interface56Z2 interface65Z2
+                   interface67Z2 interface76Z2
+                   interface78Z2 interface87Z2
+                   interface910Z2 interface109Z2
+                   interface1011Z2 interface1110Z2
+                   interface1112Z2 interface1211Z2
+                   interface1314Z2 interface1413Z2
+                   interface1415Z2 interface1514Z2
+                   interface1516Z2 interface1615Z2
+                   interface12Z3 interface21Z3
+                   interface23Z3 interface32Z3
+                   interface34Z3 interface43Z3
+                   interface56Z3 interface65Z3
+                   interface67Z3 interface76Z3
+                   interface78Z3 interface87Z3
+                   interface910Z3 interface109Z3
+                   interface1011Z3 interface1110Z3
+                   interface1112Z3 interface1211Z3
+                   interface1314Z3 interface1413Z3
+                   interface1415Z3 interface1514Z3
+                   interface1516Z3 interface1615Z3
+                   interface12Z4 interface21Z4
+                   interface23Z4 interface32Z4
+                   interface34Z4 interface43Z4
+                   interface56Z4 interface65Z4
+                   interface67Z4 interface76Z4
+                   interface78Z4 interface87Z4
+                   interface910Z4 interface109Z4
+                   interface1011Z4 interface1110Z4
+                   interface1112Z4 interface1211Z4
+                   interface1314Z4 interface1413Z4
+                   interface1415Z4 interface1514Z4
+                   interface1516Z4 interface1615Z4
+                   interface15Y1 interface51Y1
+                   interface26Y1 interface62Y1
+                   interface37Y1 interface73Y1
+                   interface48Y1 interface84Y1
+                   interface59Y1 interface95Y1
+                   interface610Y1 interface106Y1
+                   interface711Y1 interface117Y1
+                   interface812Y1 interface128Y1
+                   interface913Y1 interface139Y1
+                   interface1014Y1 interface1410Y1
+                   interface1115Y1 interface1511Y1
+                   interface1216Y1 interface1612Y1
+                   interface15Y2 interface51Y2
+                   interface26Y2 interface62Y2
+                   interface37Y2 interface73Y2
+                   interface48Y2 interface84Y2
+                   interface59Y2 interface95Y2
+                   interface610Y2 interface106Y2
+                   interface711Y2 interface117Y2
+                   interface812Y2 interface128Y2
+                   interface913Y2 interface139Y2
+                   interface1014Y2 interface1410Y2
+                   interface1115Y2 interface1511Y2
+                   interface1216Y2 interface1612Y2
+                   interface15Y3 interface51Y3
+                   interface26Y3 interface62Y3
+                   interface37Y3 interface73Y3
+                   interface48Y3 interface84Y3
+                   interface59Y3 interface95Y3
+                   interface610Y3 interface106Y3
+                   interface711Y3 interface117Y3
+                   interface812Y3 interface128Y3
+                   interface913Y3 interface139Y3
+                   interface1014Y3 interface1410Y3
+                   interface1115Y3 interface1511Y3
+                   interface1216Y3 interface1612Y3
+                   interface15Y4 interface51Y4
+                   interface26Y4 interface62Y4
+                   interface37Y4 interface73Y4
+                   interface48Y4 interface84Y4
+                   interface59Y4 interface95Y4
+                   interface610Y4 interface106Y4
+                   interface711Y4 interface117Y4
+                   interface812Y4 interface128Y4
+                   interface913Y4 interface139Y4
+                   interface1014Y4 interface1410Y4
+                   interface1115Y4 interface1511Y4
+                   interface1216Y4 interface1612Y4
+                   interface1X12 interface1X21
+                   interface2X12 interface2X21
+                   interface3X12 interface3X21
+                   interface4X12 interface4X21
+                   interface5X12 interface5X21
+                   interface6X12 interface6X21
+                   interface7X12 interface7X21
+                   interface8X12 interface8X21
+                   interface9X12 interface9X21
+                   interface10X12 interface10X21
+                   interface11X12 interface11X21
+                   interface12X12 interface12X21
+                   interface13X12 interface13X21
+                   interface14X12 interface14X21
+                   interface15X12 interface15X21
+                   interface16X12 interface16X21
+                   interface1X23 interface1X32
+                   interface2X23 interface2X32
+                   interface3X23 interface3X32
+                   interface4X23 interface4X32
+                   interface5X23 interface5X32
+                   interface6X23 interface6X32
+                   interface7X23 interface7X32
+                   interface8X23 interface8X32
+                   interface9X23 interface9X32
+                   interface10X23 interface10X32
+                   interface11X23 interface11X32
+                   interface12X23 interface12X32
+                   interface13X23 interface13X32
+                   interface14X23 interface14X32
+                   interface15X23 interface15X32
+                   interface16X23 interface16X32
+                   interface1X34 interface1X43
+                   interface2X34 interface2X43
+                   interface3X34 interface3X43
+                   interface4X34 interface4X43
+                   interface5X34 interface5X43
+                   interface6X34 interface6X43
+                   interface7X34 interface7X43
+                   interface8X34 interface8X43
+                   interface9X34 interface9X43
+                   interface10X34 interface10X43
+                   interface11X34 interface11X43
+                   interface12X34 interface12X43
+                   interface13X34 interface13X43
+                   interface14X34 interface14X43
+                   interface15X34 interface15X43
+                   interface16X34 interface16X43
+                   );
+        enables     flase;
+    }
+
+    // Keep all of faceSet on a single processor. This puts all cells 
+    // connected with a point, edge or face on the same processor.
+    // (just having face connected cells might not gurantee a balanced decomposition)
+    // This processor can be -1 (the decompositionMethod chooses the
+    // processor for a good load balance) or explicitly provided (upsets
+    // balance)
+    procs
+    {
+        type        singleProcessorFaceSets;
+        sets        (
+                    (f1Z1 1)
+                    (f1Z2 2)
+                    (f1Z3 3)
+                    (f1Z5 4)
+                    (f1Z6 5)
+                    (f1Z7 6)
+                    (f1Z9 7)
+                    (f1Z10 8)
+                    (f1Z11 9)
+                    (f1Z13 10)
+                    (f1Z14 11)
+                    (f1Z15 12)
+                    (f2Z1 13)
+                    (f2Z2 14)
+                    (f2Z3 15)
+                    (f2Z5 0)
+                    (f2Z6 1)
+                    (f2Z7 2)
+                    (f2Z9 3)
+                    (f2Z10 4)
+                    (f2Z11 5)
+                    (f2Z13 6)
+                    (f2Z14 7)
+                    (f2Z15 8)
+                    (f3Z1 9)
+                    (f3Z2 10)
+                    (f3Z3 11)
+                    (f3Z5 12)
+                    (f3Z6 13)
+                    (f3Z7 14)
+                    (f3Z9 15)
+                    (f3Z10 0)
+                    (f3Z11 1)
+                    (f3Z13 2)
+                    (f3Z14 3)
+                    (f3Z15 4)
+                    (f4Z1 5)
+                    (f4Z2 6)
+                    (f4Z3 7)
+                    (f4Z5 8)
+                    (f4Z6 9)
+                    (f4Z7 10)
+                    (f4Z9 11)
+                    (f4Z10 12)
+                    (f4Z11 13)
+                    (f4Z13 14)
+                    (f4Z14 15)
+                    (f1Y1 0)
+                    (f1Y2 1)
+                    (f1Y3 2)
+                    (f1Y4 3)
+                    (f1Y5 4)
+                    (f1Y6 5)
+                    (f1Y7 6)
+                    (f1Y8 7)
+                    (f1Y9 8)
+                    (f1Y10 9)
+                    (f1Y11 10)
+                    (f1Y12 11)
+                    (f2Y1 12)
+                    (f2Y2 13)
+                    (f2Y3 14)
+                    (f2Y4 15)
+                    (f2Y5 0)
+                    (f2Y6 1)
+                    (f2Y7 2)
+                    (f2Y8 3)
+                    (f2Y9 4)
+                    (f2Y10 5)
+                    (f2Y11 6)
+                    (f2Y12 7)
+                    (f3Y1 8)
+                    (f3Y2 9)
+                    (f3Y3 10)
+                    (f3Y4 11)
+                    (f3Y5 12)
+                    (f3Y6 13)
+                    (f3Y7 14)
+                    (f3Y8 15)
+                    (f3Y9 0)
+                    (f3Y10 1)
+                    (f3Y11 2)
+                    (f3Y12 3)
+                    (f4Y1 4)
+                    (f4Y2 5)
+                    (f4Y3 6)
+                    (f4Y4 7)
+                    (f4Y5 8)
+                    (f4Y6 9)
+                    (f4Y7 10)
+                    (f4Y8 11)
+                    (f4Y9 12)
+                    (f4Y10 13)
+                    (f4Y11 14)
+                    (f1X1 15)
+                    (f1X2 0)
+                    (f1X3 1)
+                    (f1X4 2)
+                    (f1X5 3)
+                    (f1X6 4)
+                    (f1X7 5)
+                    (f1X8 6)
+                    (f1X9 7)
+                    (f1X10 8)
+                    (f1X11 9)
+                    (f1X12 10)
+                    (f1X13 11)
+                    (f1X14 12)
+                    (f1X15 13)
+                    (f1X16 14)
+                    (f2X1 15)
+                    (f2X2 0)
+                    (f2X3 1)
+                    (f2X4 2)
+                    (f2X5 3)
+                    (f2X6 4)
+                    (f2X7 5)
+                    (f2X8 6)
+                    (f2X9 7)
+                    (f2X10 8)
+                    (f2X11 9)
+                    (f2X12 10)
+                    (f2X13 11)
+                    (f2X14 12)
+                    (f2X15 13)
+                    (f2X16 14)
+                    (f3X1 15)
+                    (f3X2 0)
+                    (f3X3 1)
+                    (f3X4 2)
+                    (f3X5 3)
+                    (f3X6 4)
+                    (f3X7 5)
+                    (f3X8 6)
+                    (f3X9 7)
+                    (f3X10 8)
+                    (f3X11 9)
+                    (f3X12 10)
+                    (f3X13 11)
+                    (f3X14 12)
+                    (f3X15 13)
+                    (f3X16 14)
+                    );
+        enables     true;
+    }
+
+    // Decompose cells such that all cell originating from single cell 
+    // end up on same processor
+    refinement
+    {
+        type        refinementHistory;
+        enables     false;
+    }
+
+}
+
+// ******************************************** //
