@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Website:  www.openfoam.com                      |
+|   \\  /    A nd           | Version:  7                                     |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      createPatchDict;
+}
+
+// *************************UPDATE CREATE PATCH DICT ***************************** //
+
+pointSync true;
+
+// Patches to create.
+
+patches
+(
+
+    {
+        name slice7Z1_sideZ1_ami;
+
+        patchInfo
+        {
+            type wall;
+        }
+        constructFrom patches;
+        patches (sidesZ1);
+    }
+
+    {
+        name slice7Z1_sideZ2_ami;
+
+        patchInfo
+        {
+            type wall;
+        }
+        constructFrom patches;
+        patches (sidesZ2);
+    }
+
+    {
+        name slice7Z1_sideY1_ami;
+
+        patchInfo
+        {
+            type wall;
+        }
+        constructFrom patches;
+        patches (sidesY1);
+    }
+
+    {
+        name slice7Z1_sideY2_ami;
+
+        patchInfo
+        {
+            type wall;
+        }
+        constructFrom patches;
+        patches (sidesY2);
+    }
+
+    {
+        name slice7Z1_sideX2_ami;
+
+        patchInfo
+        {
+            type wall;
+        }
+        constructFrom patches;
+        patches (sidesX2);
+    }
+
+);
+
+// ******************************************** //
