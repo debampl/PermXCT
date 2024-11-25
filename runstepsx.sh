@@ -26,28 +26,28 @@ NY=228
 NZ=36
 SKIP=4
 
-# #################### Install DREAM3D and call the PipelinerRunner
-# #### This block of code will create the FE mesh based on the perdefined class file from the JSON file of each slices
-# for((k=1; k<=$numZlayers; k++));	do
-# 	for((i=1; i<=$numSlice; i++));	do
+#################### Install DREAM3D and call the PipelinerRunner
+#### This block of code will create the FE mesh based on the perdefined class file from the JSON file of each slices
+for((k=1; k<=$numZlayers; k++));	do
+	for((i=1; i<=$numSlice; i++));	do
 
-# 		/home/aerodeb/DREAM3D/bin/PipelineRunner -p $parentdir/$thresholdWD/SLICE_$i\Z$k/*.json
+		/home/aerodeb/DREAM3D/bin/PipelineRunner -p $parentdir/$thresholdWD/SLICE_$i\Z$k/*.json
 
-# 	done
-# done
-# end=$(date +%s)
-# echo "Elapsed Time: $(($end-$start)) seconds"
+	done
+done
+end=$(date +%s)
+echo "Elapsed Time: $(($end-$start)) seconds"
 
-# ### After creation of individaul blocks, you can visualize the block in paraview by opening the slice_*.xdmf file.
+### After creation of individaul blocks, you can visualize the block in paraview by opening the slice_*.xdmf file.
 
-# echo $parentdir
+echo $parentdir
 
-# #################### Copy the pre-requisite openfoam file of 0.setup, constant.setup, system.setup and combiLocalPorosityProp.py to the $thresholdWD file
-# #################### Because the rest of the permeability simulation will run from the $thresholdWD
-# cp -r $parentdir/0.setup $parentdir/$thresholdWD/0.setup
-# cp -r $parentdir/constant.setup $parentdir/$thresholdWD/constant.setup
-# cp -r $parentdir/system.setup $parentdir/$thresholdWD/system.setup
-# cp -r $parentdir/combiLocalPorosityProp.py $parentdir/$thresholdWD/combiLocalPorosityProp.py
+#################### Copy the pre-requisite openfoam file of 0.setup, constant.setup, system.setup and combiLocalPorosityProp.py to the $thresholdWD file
+#################### Because the rest of the permeability simulation will run from the $thresholdWD
+cp -r $parentdir/0.setup $parentdir/$thresholdWD/0.setup
+cp -r $parentdir/constant.setup $parentdir/$thresholdWD/constant.setup
+cp -r $parentdir/system.setup $parentdir/$thresholdWD/system.setup
+cp -r $parentdir/combiLocalPorosityProp.py $parentdir/$thresholdWD/combiLocalPorosityProp.py
 
 cd $parentdir
 
@@ -57,12 +57,12 @@ cd $parentdir
 ######## Change the DIRCECTORY name DIR to $thresholdWD in matlab scritp of "mainblockMeshDict_UD_from_XCT_parallel.m"
 ######## Specify the number of processor division to run the OpenFOAM code and devide equivalently distribution accordingly along X, Y and Z direction
 
-# start=$(date +%s)
+start=$(date +%s)
 
-# matlab.exe -r -wait "run('C:\\Users\\debaa\\Desktop\SoftwareXPaperGitHub\Permeability\CodeBlockMeshMatlab\\mainblockMeshDict_UD_from_XCT_parallel'); exit;"
+matlab.exe -r -wait "run('C:\\Users\\debaa\\Desktop\SoftwareXPaperGitHub\Permeability\CodeBlockMeshMatlab\\mainblockMeshDict_UD_from_XCT_parallel'); exit;"
 
-# end=$(date +%s)
-# echo "Elapsed Time: $(($end-$start)) seconds"
+end=$(date +%s)
+echo "Elapsed Time: $(($end-$start)) seconds"
 
 
 ####################################################################################################################################
@@ -73,34 +73,34 @@ cd $parentdir/$thresholdWD
 pwd
 echo "I am here inside smaller block of each slices"
 
-# for((k=1; k<=$numZlayers; k++));	do
-# 	for((i=1; i<=$numSlice; i++));	do
+for((k=1; k<=$numZlayers; k++));	do
+	for((i=1; i<=$numSlice; i++));	do
 
-# 		cd $parentdir/$thresholdWD
-# 		pwd
+		cd $parentdir/$thresholdWD
+		pwd
 
-# 		if [ -d "$parentdir/$thresholdWD/ofslice_$i\Z$k" ]; then
-# 			echo "$parentdir/$thresholdWD/ofslice_$i\Z$k exists."
-# 			rm -rf $parentdir/$thresholdWD/ofslice_$i\Z$k
-# 		fi
-# 		mkdir -p $parentdir/$thresholdWD/ofslice_$i\Z$k
+		if [ -d "$parentdir/$thresholdWD/ofslice_$i\Z$k" ]; then
+			echo "$parentdir/$thresholdWD/ofslice_$i\Z$k exists."
+			rm -rf $parentdir/$thresholdWD/ofslice_$i\Z$k
+		fi
+		mkdir -p $parentdir/$thresholdWD/ofslice_$i\Z$k
 		
-# 		cp -r $parentdir/$thresholdWD/SLICE_$i\Z$k/constant $parentdir/$thresholdWD/ofslice_$i\Z$k
-# 		cp -r $parentdir/$thresholdWD/SLICE_$i\Z$k/system $parentdir/$thresholdWD/ofslice_$i\Z$k
+		cp -r $parentdir/$thresholdWD/SLICE_$i\Z$k/constant $parentdir/$thresholdWD/ofslice_$i\Z$k
+		cp -r $parentdir/$thresholdWD/SLICE_$i\Z$k/system $parentdir/$thresholdWD/ofslice_$i\Z$k
 
-# 		cp -r $parentdir/$thresholdWD/0.setup $parentdir/$thresholdWD/ofslice_$i\Z$k/0
+		cp -r $parentdir/$thresholdWD/0.setup $parentdir/$thresholdWD/ofslice_$i\Z$k/0
 		
-# 		cp $parentdir/$thresholdWD/system.setup/controlDict $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
-# 		cp $parentdir/$thresholdWD/system.setup/fvSolution $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
-# 		cp $parentdir/$thresholdWD/system.setup/fvSchemes $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
+		cp $parentdir/$thresholdWD/system.setup/controlDict $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
+		cp $parentdir/$thresholdWD/system.setup/fvSolution $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
+		cp $parentdir/$thresholdWD/system.setup/fvSchemes $parentdir/$thresholdWD/ofslice_$i\Z$k/system/
 
-# 		echo $parentdir/$thresholdWD
-# 		cd $parentdir/$thresholdWD/ofslice_$i\Z$k
-# 		blockMesh
-# 		createPatch -overwrite
-# 		touch ofslice_$i\Z$k.foam
-# 		echo $parentdir/$thresholdWD
-# 	done
+		echo $parentdir/$thresholdWD
+		cd $parentdir/$thresholdWD/ofslice_$i\Z$k
+		blockMesh
+		createPatch -overwrite
+		touch ofslice_$i\Z$k.foam
+		echo $parentdir/$thresholdWD
+	done
 # done
 
 cd $parentdir/$thresholdWD
@@ -109,59 +109,59 @@ echo "I am here in the " $parentdir/$thresholdWD 'to create merge the small bloc
 
 ########################## MERGE the small block to create a large doamin with connected interfaces
 
-# for((k=1; k<=$numZlayers; k++));	do
-# 	for((i=1; i<=$numSlice; i++));	do
-# 		mergeMeshes -overwrite ofslice_1Z1 ofslice_$i\Z$k
-# 	done
-# done
+for((k=1; k<=$numZlayers; k++));	do
+	for((i=1; i<=$numSlice; i++));	do
+		mergeMeshes -overwrite ofslice_1Z1 ofslice_$i\Z$k
+	done
+done
 
 
 
 ##### Copy the merge file into a combined file containing only one blockMesh of the entire blocks
 FILE_u=combined_slice
-# if [ -d "$parentdir/$thresholdWD/$FILE_u" ]; then
-# 	echo "$parentdir/$thresholdWD/$FILE_u exists."
-# 	rm -rf $parentdir/$thresholdWD/$FILE_u
-# fi
+if [ -d "$parentdir/$thresholdWD/$FILE_u" ]; then
+	echo "$parentdir/$thresholdWD/$FILE_u exists."
+	rm -rf $parentdir/$thresholdWD/$FILE_u
+fi
 
-# mkdir -p $parentdir/$thresholdWD/$FILE_u
+mkdir -p $parentdir/$thresholdWD/$FILE_u
 
-# cp -r $parentdir/$thresholdWD/ofslice_1Z1/constant $parentdir/$thresholdWD/$FILE_u
+cp -r $parentdir/$thresholdWD/ofslice_1Z1/constant $parentdir/$thresholdWD/$FILE_u
 
-# cp -r system.setup $parentdir/$thresholdWD/$FILE_u/system
+cp -r system.setup $parentdir/$thresholdWD/$FILE_u/system
 
-# cp -r 0.setup $parentdir/$thresholdWD/$FILE_u/0
+cp -r 0.setup $parentdir/$thresholdWD/$FILE_u/0
 
-# cp -r constant.setup/transportProperties $parentdir/$thresholdWD/$FILE_u/constant
-# cp -r constant.setup/turbulenceProperties $parentdir/$thresholdWD/$FILE_u/constant
+cp -r constant.setup/transportProperties $parentdir/$thresholdWD/$FILE_u/constant
+cp -r constant.setup/turbulenceProperties $parentdir/$thresholdWD/$FILE_u/constant
 
-# cd $parentdir
-# cp combiLocalPorosityProp.py $parentdir/$thresholdWD/combiLocalPorosityProp.py
+cd $parentdir
+cp combiLocalPorosityProp.py $parentdir/$thresholdWD/combiLocalPorosityProp.py
 
-# cd $parentdir/$thresholdWD/$FILE_u
+cd $parentdir/$thresholdWD/$FILE_u
 
-# ##### Create the intrface patch for combined slices
-# createPatch -overwrite
+##### Create the intrface patch for combined slices
+createPatch -overwrite
 
-# ##### Create a faceSet for combined slices 
-# ##### This faceSet will be used to allocated into specific processor while runing the simulaion in parallel
-# topoSet
+##### Create a faceSet for combined slices 
+##### This faceSet will be used to allocated into specific processor while runing the simulaion in parallel
+topoSet
 
 
 ##########################################################################################################################
 ######## The python script has been used to combine all the porosity properites from individual SLICE's to create a giant porosityProperties file of combined FOAM simulation
-# cd $parentdir/$thresholdWD
+cd $parentdir/$thresholdWD
 
-# python combiLocalPorosityProp.py $numSlice $numZlayers
+python combiLocalPorosityProp.py $numSlice $numZlayers
 
 cd $parentdir/$thresholdWD
 
 #### Remove the blockMesh file of smaller block 
-# for((k=1; k<=$numZlayers; k++));	do
-# 	for((i=1; i<=$numSlice; i++));	do
-# 		rm -rf $parentdir/$thresholdWD/ofslice_$i\Z$k
-# 	done
-# done
+for((k=1; k<=$numZlayers; k++));	do
+	for((i=1; i<=$numSlice; i++));	do
+		rm -rf $parentdir/$thresholdWD/ofslice_$i\Z$k
+	done
+done
 
 for((KK=2; KK<=3; KK++));	do
 
@@ -187,9 +187,9 @@ for((KK=2; KK<=3; KK++));	do
 	#rm -rf 60
 	#rm -rf 90
 	#rm -rf 120
-	# #rm -rf postProcessing
+	#rm -rf postProcessing
 
-	# ##### Decompose the new file 
+	##### Decompose the new file 
 	decomposePar
 	pwd
 
