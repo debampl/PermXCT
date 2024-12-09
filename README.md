@@ -56,5 +56,4 @@ Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to 
 
 
 # Documentation
-
-Check online [Documentation](https://github.com/debampl/PermXCT.git) for PermXCT
+Check PermXCT (SoftwareX) paper for the functionality of individual code and details of the test cases for scientific development and research interest in the "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental measurement" Composite Science and Technology paper.
