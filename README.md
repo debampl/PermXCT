@@ -42,3 +42,6 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link and install it in the WSL Linux environment
 3. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
 
+# Documentation
+
+Check online [Documentation](https://github.com/debampl/PermXCT.git) for PermXCT
