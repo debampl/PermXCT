@@ -36,6 +36,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 
 >[!NOTE]
 >Remember update the floder directory name in both the `runstepsx.sh` to execute the rest of the code. Update the python notebook file `UD_TURB0_CST2025.ipynb` in XCT_dataset to locate XCT data file.
+>Update file name path in `MATLAB` file `mainblockMeshDict_UD_from_XCT_parallel.m` in `/yourpath/home/Permeability/CodeBlockMeshMatlab`
 
 ## Install dependencies
 1. `Install Python libraries`: Use pip install in the designated Anaconda environment. See the requirement.txt file.
