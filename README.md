@@ -1,6 +1,6 @@
 # PermXCT: A Novel Framework for Image-Based Virtual Permeability Prediction
-The global overview of the PermXCT:
-![PermXCT_globalOverview](https://github.com/user-attachments/assets/4ded2a74-4d40-453f-a306-93821d9f74aa)
+The global overview of PermXCT:
+![GlobalOverview](https://github.com/user-attachments/assets/df0cee59-f1c1-4596-9732-179163fc0eba)
 
 ## Acknowledgement
 The work of Debabrata Adhikari, Jesper Henri Hattel has received funding from Horizon Europe, the European Union’s Framework Programme for Research, and Innovation, under Grant Agreement No. 101058054 (TURBO) https://turboproject.eu/. The work of Jesper Lisegaard and Sankhya Mohanty has been supported by the Energy Technology Development and Demonstration Programme: Automated Lay-up processes in blade Manufacturing (ALMA) project (Grant No. 640222-495998).
