@@ -3,7 +3,7 @@ The global overview of PermXCT:
 ![GlobalOverview](https://github.com/user-attachments/assets/df0cee59-f1c1-4596-9732-179163fc0eba)
 
 ## Acknowledgement
-The work of Debabrata Adhikari, Jesper Henri Hattel has received funding from Horizon Europe, the European Union’s Framework Programme for Research, and Innovation, under Grant Agreement No. 101058054 (TURBO) https://turboproject.eu/. The work of Jesper Lisegaard and Sankhya Mohanty has been supported by the Energy Technology Development and Demonstration Programme: Automated Lay-up processes in blade Manufacturing (ALMA) project (Grant No. 640222-495998).
+The work of Debabrata Adhikari and Jesper Henri Hattel has received funding from Horizon Europe, the European Union’s Framework Programme for Research, and Innovation, under Grant Agreement No. 101058054 (TURBO) https://turboproject.eu/. The work of Jesper Lisegaard and Sankhya Mohanty has been supported by the Energy Technology Development and Demonstration Programme: Automated Lay-up processes in blade Manufacturing (ALMA) project (Grant No. 640222-495998).
 
 <img src="https://github.com/user-attachments/assets/d46062e3-6250-49d9-b62e-41350cc712e3" width="300" height="150" />
 
@@ -21,7 +21,7 @@ PermXCT is a framework for virtual permeability prediction in fiber-reinforced p
 
 ![FLowchart](https://github.com/user-attachments/assets/2ef80d7f-1fdd-4a1e-8d08-5a70a836fa4c)
 
-1. `Pyhton notebook`: Extract the data from XCT scan and perform structure tensor analysis
+1. `Pyhton notebook`: Extract the data from the XCT scan and perform structure tensor analysis
 2. `DREAM3D`: Create the finite element mesh (FE) from the segmented scan of fiber and matrix
 3. `MATLAB`: Transform the FE mesh to blockMesh and required file of porosityPorpertis, interfaces and boundary condition for OpenFOAM
 4. `OpenFOAM`: Create and perform flow simulations for three principal permeability
@@ -37,7 +37,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 2. Download the XCT_dataset and DREAM3D file from the Zenodo link.
 
 >[!NOTE]
->Remember update the floder directory name in both the `runstepsx.sh` to execute the rest of the code. Update the python notebook file `UD_TURB0_CST2025.ipynb` in XCT_dataset to locate XCT data file.
+>Remember to update the folder directory name in both the `runstepsx.sh` to execute the rest of the code. Update the python notebook file `UD_TURB0_CST2025.ipynb` in XCT_dataset to locate XCT data file.
 >Update file name path in `MATLAB` file `mainblockMeshDict_UD_from_XCT_parallel.m` in `/yourpath/home/Permeability/CodeBlockMeshMatlab`
 
 ## Install dependencies
@@ -49,7 +49,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 ## Using VScode to Run Segmentation of XCT DATA
 Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) and [install](https://code.visualstudio.com/docs/setup/setup-overview) it. A short video tutorial on how to install VScode and add Julia to it can be found [here](https://www.youtube.com/watch?v=oi5dZxPGNlk).
 
-Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/XCT_dataset` where the XCT data is located. Update the file path name `path_wd` (for windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. 
+Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/XCT_dataset` where the XCT data is located. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. 
 
  ## Using the shell script to perform automated permeability prediction
  1. Open a cmd prompt terminal in WSL-Linux and navigate to the defined Anaconda environment. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
