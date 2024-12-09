@@ -43,7 +43,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link and install it in the WSL Linux environment
 3. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
 
-# Run a Case in HOPE
+# Run a Case in PermXCT
 ## Using VScode to Run Segmentation of XCT DATA
 Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) and [install](https://code.visualstudio.com/docs/setup/setup-overview) it. A short video tutorial on how to install VScode and add Julia to it can be found [here](https://www.youtube.com/watch?v=oi5dZxPGNlk).
 
