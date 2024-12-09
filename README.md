@@ -15,7 +15,7 @@ Debabrata Adhikari, Jesper J. Lisegaard, Jesper H. Hattel, and Sankhya Mohanty (
 Debabrata Adhikari, Jesper J. Lisegaard, Robert S. Pierce, Lars Pilgaard Mikkelsen, Jesper H. Hattel, and Sankhya Mohanty. "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental measurement". Composite Science and Technology (submitted for publication)
 ```
 # Overview
-Permeability prediction from XCT scan of the porous composite preform. The workflow starts from the segmentation classification of the XCT fiber class, creation of FE mesh then update to OpenFOAM blockMesh and finally the running simulation of the test and predicted permeability is demonstrated in the flow chart below.
+PermXCT is a framework for virtual permeability prediction in fiber-reinforced polymer (FRP) composites using X-ray computed tomography (XCT). It automates geometry extraction, finite element (FE) mesh generation, flow simulation, and permeability prediction while integrating mesoscale and microscale features, such as intra- and inter-yarn porosity and fiber orientation, for large-domain XCT scans. Utilizing open-source tools like DREAM3D, OpenFOAM, Python, and MATLAB, PermXCT ensures computational efficiency through domain-size reduction and mesh optimization. This platform overcomes respectabilities in experimental measurements and has significant applications in predicting virtual permeability during infusion and potential used in the structural performance prediction simulation of post-cured FRP composites. The flow chart of the workflow is shown below.
 
 ![FLowchart](https://github.com/user-attachments/assets/2ef80d7f-1fdd-4a1e-8d08-5a70a836fa4c)
 
