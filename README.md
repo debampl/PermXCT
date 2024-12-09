@@ -49,7 +49,8 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
 
 Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/XCT_dataset` where the XCT data is located. Update the file path name `path_wd` (for windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. 
 
- ## Using shell-script to perform automated permeability prediction
+ ## Using shell script to perform automated permeability prediction
+ 
  
 
 
