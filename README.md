@@ -28,13 +28,17 @@ PermXCT is a framework for virtual permeability prediction in fiber-reinforced p
 The XCT dataset is presented in the https://zenodo.org/uploads/14228043 link. Users can use any type of XCT data format ready by Python libraries and perform the same for the prediction of virtual permeability.
 
 # Preparation Phase
+## Download PermXCT repository
+1. Clone OR download the **PermXCT** repository to your local directory - click the green "Code" button on the **PermXCT** main page and choose "Download ZIP". 
+Then save the `PermXCT` project in your working folder/home directory (e.g., the path to the `PermXCT` project could be: `/yourpath/home/PermXCT_Master`). 
+
+2. Download the XCT_dataset and DREAM3D file from the Zenodo link.
+
+>[!NOTE]
+>Remember update the floder directory name in both the `runstepsx.sh` to execute the rest of the code. Update the python notebook file `UD_TURB0_CST2025.ipynb` in XCT_dataset to locate XCT data file.
+
 ## Install dependencies
 1. `Install Python libraries`: Use pip install in the designated Anaconda environment. See the requirement.txt file.
 2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link and install it in the WSL Linux environment
 3. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
-## Download PermXCT repository
-Clone OR download the **PermXCT** repository to your local directory - click the green "Code" button on the **PermXCT** main page and choose "Download ZIP". 
-Then save the `PermXCT` project in your working folder/home directory (e.g., the path to the `PermXCT` project could be: `/yourpath/home/PermXCT_Master`). 
->[!NOTE]
->Remember update the floder directory name in both the ``
 
