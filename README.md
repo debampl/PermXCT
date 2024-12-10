@@ -50,14 +50,25 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 ## Using VScode to Run Segmentation of XCT DATA
 Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) and [install](https://code.visualstudio.com/docs/setup/setup-overview) it. A short video tutorial on how to install VScode and add Julia to it can be found [here](https://www.youtube.com/watch?v=oi5dZxPGNlk).
 
-Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
+Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. 
+![OpenCondaEnvironment](https://github.com/user-attachments/assets/c17ec8e1-18b5-4190-87f6-fe08b8a8cffe)
+
+Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
+![WSLPath](https://github.com/user-attachments/assets/3a9cd483-621e-420d-a17b-f01f1933df9f)
+At the end of execution, the VS-code window looks like this.
+![EndOfXCT_segmentation](https://github.com/user-attachments/assets/eeeeb7ca-c3db-4a28-b0d1-ae5c3f24f447)
 
  ## Using the shell script to perform automated permeability prediction
  1. Open a cmd prompt terminal in WSL-Linux and navigate to `PermXCT/Permeability` folder. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
+ ![selectWSL_terminal](https://github.com/user-attachments/assets/20971f3c-f515-4c91-b4fb-a5c65a884e5a)
+ 
  2. Look at the XCT data set of slices in the `Permeability` folder which VSCode creates.
- 3. Updated ´dir´, `thresholdWD` and the MATLAB path 
- 4. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
- 5. Then execute the `runstepsx.sh` script
+ ![FolderDirectoryPerm](https://github.com/user-attachments/assets/6b5ca0d3-e76b-4842-9302-7dec966b0d52)
+
+ 
+ 4. Updated ´dir´, `thresholdWD` and the MATLAB path 
+ 5. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
+ 6. Then execute the `runstepsx.sh` script
 
 
 # Documentation
