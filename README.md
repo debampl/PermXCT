@@ -50,12 +50,13 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 ## Using VScode to Run Segmentation of XCT DATA
 Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) and [install](https://code.visualstudio.com/docs/setup/setup-overview) it. A short video tutorial on how to install VScode and add Julia to it can be found [here](https://www.youtube.com/watch?v=oi5dZxPGNlk).
 
-Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. 
+1. Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. 
 ![OpenCondaEnvironment](https://github.com/user-attachments/assets/c17ec8e1-18b5-4190-87f6-fe08b8a8cffe)
 
-Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
+2. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
 ![WSLPath](https://github.com/user-attachments/assets/3a9cd483-621e-420d-a17b-f01f1933df9f)
-At the end of execution, the VS-code window looks like this.
+
+3. At the end of execution, the VS-code window looks like this.
 ![EndOfXCT_segmentation](https://github.com/user-attachments/assets/eeeeb7ca-c3db-4a28-b0d1-ae5c3f24f447)
 
  ## Using the shell script to perform automated permeability prediction
