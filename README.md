@@ -53,9 +53,10 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
 Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
 
  ## Using the shell script to perform automated permeability prediction
- 1. Open a cmd prompt terminal in WSL-Linux and navigate to the defined Anaconda environment. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
- 2. Look at the XCT data set of slices in the `Permeability` folder which is created by VSCode. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
- 3. Then execute the `runstepsx.sh` script
+ 1. Open a cmd prompt terminal in WSL-Linux and navigate to `PermXCT/Permeability` folder. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
+ 2. Look at the XCT data set of slices in the `Permeability` folder which VSCode creates.
+ 3. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
+ 4. Then execute the `runstepsx.sh` script
 
 
 # Documentation
