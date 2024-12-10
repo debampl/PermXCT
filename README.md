@@ -53,7 +53,7 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
 1. Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. 
 ![OpenCondaEnvironment](https://github.com/user-attachments/assets/c17ec8e1-18b5-4190-87f6-fe08b8a8cffe)
 
-2. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
+2. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/PermXCT/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
 ![WSLPath](https://github.com/user-attachments/assets/3a9cd483-621e-420d-a17b-f01f1933df9f)
 
 3. At the end of execution, the VS-code window looks like this.
@@ -69,10 +69,12 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
  3. Update ´dir´, `thresholdWD` and update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
 ![ShellDirectory](https://github.com/user-attachments/assets/e45d9d94-1793-439b-bd52-c291e2cc015b)
 
- 4. Update the Matlab file path
+ 4. Update the Matlab file path in the shell script `runstepsx.sh
  ![{812998DC-C88D-4B54-B1BE-68E03E648050}](https://github.com/user-attachments/assets/f0373803-f32b-45e1-a20c-99ad0cffefdb)
+and in the DIR name in `/mnt/c/yourpath/PermXCT/Permeability/CodeBlockMeshMatlab/mainblockMeshDict_UD_from_XCT_parallel.m` file as follows:
+![{19DDC094-4F11-4624-9CEC-3AD1C6B9793A}](https://github.com/user-attachments/assets/1d3995fd-2ee1-4797-8594-f6078435bacd)
 
-5. Then execute the `runstepsx.sh` script.
+6. Then execute the `runstepsx.sh` script.
 Wile running it looks like these
 ![{D92AB542-0DDB-42B1-9FAE-9ED1E14B3E43}](https://github.com/user-attachments/assets/22828673-bf74-4194-bf59-d19f301d4cf7)
 
