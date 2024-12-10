@@ -55,8 +55,9 @@ Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to 
  ## Using the shell script to perform automated permeability prediction
  1. Open a cmd prompt terminal in WSL-Linux and navigate to `PermXCT/Permeability` folder. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
  2. Look at the XCT data set of slices in the `Permeability` folder which VSCode creates.
- 3. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
- 4. Then execute the `runstepsx.sh` script
+ 3. Updated ´dir´, `thresholdWD` and the MATLAB path 
+ 4. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
+ 5. Then execute the `runstepsx.sh` script
 
 
 # Documentation
