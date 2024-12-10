@@ -50,7 +50,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 ## Using VScode to Run Segmentation of XCT DATA
 Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) and [install](https://code.visualstudio.com/docs/setup/setup-overview) it. A short video tutorial on how to install VScode and add Julia to it can be found [here](https://www.youtube.com/watch?v=oi5dZxPGNlk).
 
-Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/XCT_dataset` where the XCT data is located. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. 
+Open the VScode, click the 'File' tab, select 'Open Folder...', and navigate to your home working directory:`/yourpath/home/PermXCT/XCT_preProcess` where the XCT data is located. Update the file path name `path_wd` (for Windows `"C:/Users/yourpath/home/Permeability"`) and `path_unix` (for Linux WSL `"/mnt/c/yourpath/Permeability"`) to generate the file path of each slice for permeability prediction. Then run the notebook `UD_TURB0_CST2025.ipynb` in VS code within the dedicated environment where you have installed all the dependencies.
 
  ## Using the shell script to perform automated permeability prediction
  1. Open a cmd prompt terminal in WSL-Linux and navigate to the defined Anaconda environment. Make sure the DREAM3D and OpenFOAM are available in the terminal window. Run `icoFOAM` to see if this is available and OpenFOAM is ready to use.
