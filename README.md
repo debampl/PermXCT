@@ -78,7 +78,7 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
  6. Then execute the `runstepsx.sh` script.
 Wile running it looks like these
 ![{D92AB542-0DDB-42B1-9FAE-9ED1E14B3E43}](https://github.com/user-attachments/assets/22828673-bf74-4194-bf59-d19f301d4cf7)
-If it says `blockMesh: command not found`, enable the OpenFOAM environment as follows. My openfoam alis is of2212.
+If it says `blockMesh: command not found`, enable the OpenFOAM environment as follows. My OpenFOAM alias is of2212.
 ![{B525C2C6-C38F-40ED-A5F5-F3B48A13B322}](https://github.com/user-attachments/assets/57a20e5f-f875-4225-8106-9146440c639d)
 
 
