@@ -66,10 +66,13 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
  2. Look at the XCT data set of slices in the `Permeability` folder which VSCode creates.
  ![FolderDirectoryPerm](https://github.com/user-attachments/assets/6b5ca0d3-e76b-4842-9302-7dec966b0d52)
 
- 
- 4. Updated ´dir´, `thresholdWD` and the MATLAB path 
- 5. Update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
- 6. Then execute the `runstepsx.sh` script
+ 3. Update ´dir´, `thresholdWD` and update the filed of Vf, NX, NY, NZ and SKIP accordingly from the VSCode.
+![ShellDirectory](https://github.com/user-attachments/assets/e45d9d94-1793-439b-bd52-c291e2cc015b)
+
+ 4. Update the Matlab file path
+ ![{812998DC-C88D-4B54-B1BE-68E03E648050}](https://github.com/user-attachments/assets/f0373803-f32b-45e1-a20c-99ad0cffefdb)
+
+5. Then execute the `runstepsx.sh` script
 
 
 # Documentation
