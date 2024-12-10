@@ -70,18 +70,16 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
 ![ShellDirectory](https://github.com/user-attachments/assets/e45d9d94-1793-439b-bd52-c291e2cc015b)
 
  4. Update the Matlab file path in the shell script `runstepsx.sh
-![{D612AABE-0D8A-4065-B65D-7A16C786F89B}](https://github.com/user-attachments/assets/de957fe5-e3d0-4a19-968a-41f994181986)
-
-5. Update DIR name in `/mnt/c/yourpath/PermXCT/Permeability/CodeBlockMeshMatlab/mainblockMeshDict_UD_from_XCT_parallel.m` file as follows:
+![{C01AC32A-EBD3-4797-8037-842FEB6C432A}](https://github.com/user-attachments/assets/7cbceb82-cf9f-4304-b3ac-08380925394e)
+ 
+ 5. Update DIR name in `/mnt/c/yourpath/PermXCT/Permeability/CodeBlockMeshMatlab/mainblockMeshDict_UD_from_XCT_parallel.m` file as follows:
 ![{19DDC094-4F11-4624-9CEC-3AD1C6B9793A}](https://github.com/user-attachments/assets/1d3995fd-2ee1-4797-8594-f6078435bacd)
 
-6. Then execute the `runstepsx.sh` script.
+ 6. Then execute the `runstepsx.sh` script.
 Wile running it looks like these
 ![{D92AB542-0DDB-42B1-9FAE-9ED1E14B3E43}](https://github.com/user-attachments/assets/22828673-bf74-4194-bf59-d19f301d4cf7)
 If it says `blockMesh: command not found`, enable the OpenFOAM environment as follows. My openfoam alis is of2212.
 ![{B525C2C6-C38F-40ED-A5F5-F3B48A13B322}](https://github.com/user-attachments/assets/57a20e5f-f875-4225-8106-9146440c639d)
-
-
 
 
 # Documentation
