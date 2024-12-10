@@ -86,4 +86,4 @@ If it says `blockMesh: command not found`, enable the OpenFOAM environment as fo
 Check PermXCT (SoftwareX) paper for the functionality of individual code and details of the test cases for scientific development and research interest in the "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental measurement" Composite Science and Technology paper.
 
 # Contact
-If you think this can help you, please reach out to my email debaa@dtu.dk or deb1729@gmail.com for further collaboration
+If you believe this could be helpful, feel free to contact me via email at debaa@dtu.dk or deb1729@gmail.com for further collaboration.
