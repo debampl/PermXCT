@@ -35,6 +35,7 @@ The XCT dataset is presented in the https://zenodo.org/uploads/14228043 link. Us
 Then save the `PermXCT` project in your working folder/home directory (e.g., the path to the `PermXCT` project could be: `/yourpath/home/PermXCT_Master`). 
 
 2. Download the XCT_dataset and DREAM3D file from the Zenodo link.
+3. Copy the `dream3D_pipeline` folder and the XCT data file `JCB-11-14-19_LFOV-B2-10s-LE3-60kV-10w_recon.txm` from the Zenodo repository to ´PermXCT/XCT_preProcess´ folder. 
 
 >[!NOTE]
 >Remember to update the folder directory name in both the `runstepsx.sh` to execute the rest of the code. Update the python notebook file `UD_TURB0_CST2025.ipynb` in XCT_dataset to locate XCT data file.
