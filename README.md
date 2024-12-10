@@ -70,7 +70,7 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
 ![ShellDirectory](https://github.com/user-attachments/assets/e45d9d94-1793-439b-bd52-c291e2cc015b)
 
  4. Update the Matlab file path in the shell script `runstepsx.sh
-![{C01AC32A-EBD3-4797-8037-842FEB6C432A}](https://github.com/user-attachments/assets/7cbceb82-cf9f-4304-b3ac-08380925394e)
+![image](https://github.com/user-attachments/assets/7e74060d-222c-4392-a18b-9e94eb0e81ad)
  
  5. Update DIR name in `/mnt/c/yourpath/PermXCT/Permeability/CodeBlockMeshMatlab/mainblockMeshDict_UD_from_XCT_parallel.m` file as follows:
 ![{19DDC094-4F11-4624-9CEC-3AD1C6B9793A}](https://github.com/user-attachments/assets/1d3995fd-2ee1-4797-8594-f6078435bacd)
