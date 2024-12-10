@@ -72,8 +72,8 @@ Install Visual Studio Code: Download [VScode](https://code.visualstudio.com/) an
  4. Update the Matlab file path
  ![{812998DC-C88D-4B54-B1BE-68E03E648050}](https://github.com/user-attachments/assets/f0373803-f32b-45e1-a20c-99ad0cffefdb)
 
-5. Then execute the `runstepsx.sh` script
-While running it looks like these
+5. Then execute the `runstepsx.sh` script.
+Wile running it looks like these
 ![{D92AB542-0DDB-42B1-9FAE-9ED1E14B3E43}](https://github.com/user-attachments/assets/22828673-bf74-4194-bf59-d19f301d4cf7)
 
 
