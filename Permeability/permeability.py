@@ -16,10 +16,10 @@ def main():
 	endStep = 200 # nt(sys.argv[3])
 	# threshold = str(sys.argv[3])
 	Vf = float(sys.argv[3])
-	NX = str(sys.argv[4])
-	NY = str(sys.argv[5])
-	NZ = str(sys.argv[6])
-	SKIP = str(sys.argv[7])
+	NX = int(sys.argv[4])
+	NY = int(sys.argv[5])
+	NZ = int(sys.argv[6])
+	SKIP = int(sys.argv[7])
 	
 	flowRatePath = path + "/postProcessing/flowRatePatch(name="+str(Q_surf)+")/"+str(endStep)+"/"
 	# print(path)
