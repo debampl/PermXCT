@@ -10,8 +10,8 @@ clc;
 
 % tic   % Calculate run time
 
-DIR = ['C:\Users\debaa\Desktop\SoftwareXPaperGitHub\Permeability\'...
-    +'Dom148x228x36\Thresold36784skippVox4\'];
+DIR = ['C:\Users\debaa\Desktop\PermXCT\Permeability\'...
+    +'Dom148x228x36\Thresold34500skippVox4\'];
 
 ncol = 4; % Number of slice division in Z direction
 nrow = 4; % Number of slice division in Y direction
