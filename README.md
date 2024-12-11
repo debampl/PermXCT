@@ -89,4 +89,4 @@ While running the permeability flow simulation
 Check PermXCT (SoftwareX) paper for the functionality of individual code and details of the test cases for scientific development and research interest in the "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental measurement" Composite Science and Technology paper.
 
 # Contact
-If you believe this could be helpful, feel free to contact me via email at debaa@dtu.dk or deb1729@gmail.com for further collaboration.
+If you think this work could be beneficial, don’t hesitate to reach out via email at debaa@dtu.dk or deb1729@gmail.com to explore potential collaborations. The repository includes four standalone modules: segmentation of the XCT scan, generation of the FE mesh from XCT, creation of the blockMesh from the FE mesh, and execution of the OpenFOAM simulation with a multi-block domain. These modules can be used independently. Please remember to cite this work if you find any of the modules valuable for your research or industrial projects.
