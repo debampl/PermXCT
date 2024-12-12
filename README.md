@@ -43,7 +43,7 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 
 ## Install dependencies
 1. `Install Python libraries`: Use pip install in the designated Anaconda environment. See the requirement.txt file.
-2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link and install it in the WSL Linux environment
+2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link in the WSL Linux environment. It will have `DREAM3D/bin/PipelineRunner` which is called from the shell script to run DREAM3D pipeline.
 3. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
 
 # Run a Case in PermXCT
