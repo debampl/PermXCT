@@ -35,7 +35,7 @@ The XCT dataset is presented in the https://zenodo.org/uploads/14228043 link. Us
 1. Clone OR download the **PermXCT** repository to your local directory - click the green "Code" button on the **PermXCT** main page and choose "Download ZIP". 
 Then save the `PermXCT` project in your working folder/home directory (e.g., the path to the `PermXCT` project could be: `/yourpath/home/PermXCT_Master`). 
 
-2. Download the XCT_dataset and DREAM3D file from the Zenodo link.
+2. Download the XCT_dataset, dxchange and DREAM3D file from the Zenodo link.
 3. Copy the `dream3D_pipeline` folder and the XCT data file `JCB-11-14-19_LFOV-B2-10s-LE3-60kV-10w_recon.txm` from the Zenodo repository to ´PermXCT/XCT_preProcess´ folder. 
 
 >[!NOTE]
@@ -43,9 +43,10 @@ Then save the `PermXCT` project in your working folder/home directory (e.g., the
 >Update file name path in `MATLAB` file `mainblockMeshDict_UD_from_XCT_parallel.m` in `/yourpath/home/Permeability/CodeBlockMeshMatlab`
 
 ## Install dependencies
-1. `Install Python libraries`: Use pip install in the designated Anaconda environment. See the requirement.txt file.
-2. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link in the WSL Linux environment. It will have `DREAM3D/bin/PipelineRunner` which is called from the shell script to run DREAM3D pipeline.
-3. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
+1. `Install Python libraries`: Use pip install in the designated Anaconda environment. Please take a look at the requirement.txt file.
+2. `Install dxchange`: Locate the dxchange folder in download and extract. Execute `cd /yourpath/home/download/dxchange` and `pip install .` inside same Anaconda environment.
+3. `Install DREAM3D`: Unzip the dream3D_pipeline.zip from the Zenodo link in the WSL Linux environment. It will have `DREAM3D/bin/PipelineRunner` which is called from the shell script to run DREAM3D pipeline.
+4. `Install OpenFOAM`: Download OpenFOAM V2212 from "https://www.openfoam.com/news/main-news/openfoam-v2212"
 
 # Run a Case in PermXCT
 ## Using VScode to Run Segmentation of XCT DATA
