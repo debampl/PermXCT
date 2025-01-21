@@ -19,8 +19,7 @@ Debabrata Adhikari, Jesper J. Lisegaard, Jesper H. Hattel, and Sankhya Mohanty (
 # Overview
 PermXCT is a framework for virtual permeability prediction in fiber-reinforced polymer (FRP) composites using X-ray computed tomography (XCT). It automates geometry extraction, finite element (FE) mesh generation, flow simulation, and permeability prediction while integrating mesoscale and microscale features, such as intra- and inter-yarn porosity and fiber orientation, for large-domain XCT scans. Utilizing open-source tools like DREAM3D, OpenFOAM, Python, and MATLAB, PermXCT ensures computational efficiency through domain-size reduction and mesh optimization. This platform overcomes respectabilities in experimental measurements and has significant applications in predicting virtual permeability during infusion and potential used in the structural performance prediction simulation of post-cured FRP composites. The flow chart of the workflow is shown below.
 
-![FLowchart2](https://github.com/user-attachments/assets/00f53bf3-0f2b-477d-9262-fe2ba7686b9b)
-
+![Flowchart3](https://github.com/user-attachments/assets/dcee0fee-a03a-44cb-a753-c0cb5366f537)
 
 1. `Pyhton notebook`: Extract the data from the XCT scan and perform structure tensor analysis
 2. `DREAM3D`: Create the finite element mesh (FE) from the segmented scan of fiber and matrix
