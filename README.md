@@ -8,7 +8,7 @@ The work of Debabrata Adhikari, Jesper Henri Hattel and Sankhya Mohanty has rece
 <img src="https://github.com/user-attachments/assets/d46062e3-6250-49d9-b62e-41350cc712e3" width="300" height="150" />
 
 ## How to cite PermXCT?
-You can cite the paper: 
+You can cite the following paper if any part of the workflow is useful for you:
 ```
 ## Software development:
 Debabrata Adhikari, Jesper J. Lisegaard, Jesper H. Hattel, and Sankhya Mohanty (2025). "PermXCT: A Novel Framework for Image-Based Virtual Permeability Prediction". SoftwareX (submitted for publication)
