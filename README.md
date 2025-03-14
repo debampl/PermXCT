@@ -27,7 +27,7 @@ PermXCT is a framework for virtual permeability prediction in fiber-reinforced p
 4. `OpenFOAM`: Create and perform flow simulations for three principal permeability
 5. `Shell script`: Automate the process from DREAM3D until the prediction of permeability
 
-The XCT dataset is presented in the https://zenodo.org/uploads/14228043 link. Users can use any type of XCT data format ready by Python libraries and perform the same for the prediction of virtual permeability.
+The XCT dataset is presented in the 10.5281/zenodo.14228043 link. Users can use any type of XCT data format ready by Python libraries and perform the same for the prediction of virtual permeability.
 
 # Preparation Phase
 ## Download PermXCT repository
