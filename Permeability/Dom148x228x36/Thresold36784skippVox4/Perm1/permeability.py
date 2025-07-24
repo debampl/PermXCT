@@ -54,7 +54,7 @@ def main():
 	###########################################################################
 	######## This directional change has been incroporated to match with fiber orientation and the predicted permeability direction
 	if KK == 1:
-		permeabilityK = (1-Vf)*flowRate[1]*(Lx*mu)/((Ly*Lz)*(P1-P2))
+		permeabilityK = (1-Vf)*flowRate[1]*(Lx*mu)/(rho*(Ly*Lz)*(P1-P2))
 		print('permeability K3: %g'% float(permeabilityK))
 		domainD = open(path + f"/Permeability_K33_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
@@ -68,7 +68,7 @@ def main():
 		domainD.close()
 
 	if KK == 2:
-		permeabilityK = (1-Vf)*flowRate[1]*(Ly*mu)/((Lx*Lz)*(P1-P2))
+		permeabilityK = (1-Vf)*flowRate[1]*(Ly*mu)/(rho*(Lx*Lz)*(P1-P2))
 		print('permeability K2: %g'% float(permeabilityK))
 		domainD = open(path + f"/Permeability_K22_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
@@ -82,7 +82,7 @@ def main():
 		domainD.close()
 
 	if KK == 3:
-		permeabilityK = (1-Vf)*flowRate[1]*(Lz*mu)/((Lx*Ly)*(P1-P2))
+		permeabilityK = (1-Vf)*flowRate[1]*(Lz*mu)/(rho*(Lx*Ly)*(P1-P2))
 		print('permeability K1: %g'% float(permeabilityK))
 		domainD = open(path + f"/Permeability_K11_XCT.txt", "w+")
 		domainD.write('Domain dimensions\n')
