@@ -11,9 +11,9 @@ The work of Debabrata Adhikari, Jesper Henri Hattel and Sankhya Mohanty has rece
 You can cite the following paper if any part of the workflow is useful for you:
 ```
 ## Software development:
-Adhikari, Debabrata, Jesper John Lisegaard, Jesper Henri Hattel, and Sankhya Mohanty. "PermXCT: A novel framework for imaging-based virtual permeability prediction." SoftwareX 33 (2026): 102529.
+Adhikari, Debabrata, Jesper John Lisegaard, Jesper Henri Hattel, and Sankhya Mohanty. "PermXCT: A novel framework for imaging-based virtual permeability prediction." SoftwareX 33 (2026): 102529. https://doi.org/10.1016/j.softx.2026.102529
 ## Research interest and application:
-1.Adhikari, Debabrata, Jesper John Lisegaard, Robert S. Pierce, Lars Pilgaard Mikkelsen, Jesper Henri Hattel, and Sankhya Mohanty. "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental validation." Composites Science and Technology (2025): 111290.
+1.Adhikari, Debabrata, Jesper John Lisegaard, Robert S. Pierce, Lars Pilgaard Mikkelsen, Jesper Henri Hattel, and Sankhya Mohanty. "Meso-scale permeability prediction from the multi-block 3D reconstruction of fiber reinforced polymer composite with experimental validation." Composites Science and Technology (2025): 111290. https://doi.org/10.1016/j.compscitech.2025.111290
 2.Debabrata Adhikari, Jesper J. Lisegaard, Jesper H. Hattel, and Sankhya Mohanty, "An efficient approach for mesoscale virtual permeability predictions using realistic fiber geometry extracted via micro-ray computed tomography." In 21st European Conference on Composite Materials, pp. 467-474. 2024.
 ```
 # Overview
